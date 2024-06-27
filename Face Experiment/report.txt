@@ -1,0 +1,1469 @@
+>> ALL_check_missrate_out_with_ground_truth_bases
+================================================================================
+Progress 1/36: num_groups = 2, start_person_id = 1
+================================================================================
+Data Loading...Over, costing 0.87s
+
+Data Construction(downsampling & corrpution)...Over, costing 0.28s
+	-->Data Information:<--
+	num_groups = 2
+	start_person_id = 1
+	number of total samples = 128
+	dimension of each sample = 2016
+	number of outliers = 32
+	outlier_mod = 1
+
+Inliers detection...
+		 number of detected inliers/ true inliers = 95/96 ;
+		 number of detected inliers/ true outliers = 33/32 ;
+		 number of undetected true inliers/ true inliers = 2/96;
+		 number of undetected true outliers/ true outliers = 1/32;
+	...Over, took 0.261s.
+
+Basis reconstrution...
+	rank of each estimated space = 8
+	-->Now run SSC algorithm<--
+		Constructing adjacency matrix...Done, costing 45.894s
+		BuildAdjacency...Done, costing 0.018s
+		SpectralClustering...Done, costing 0.115s
+	-->missrate_in = 0.010526<--
+	Over, costing 0.62s
+
+Outlier classification...
+	with ground truth bases...
+	Progress:[##################################################] 100%
+	with reconstructed bases...
+	Progress:[##################################################] 100%
+	Over, took 8.73s
+In this case, missrate_out_gt = 0.000, missrate_out_reconstructed = 0.000,
+with undetected_outlier_num_ratio = 0.031
+
+================================================================================
+Progress 2/36: num_groups = 2, start_person_id = 6
+================================================================================
+Data Loading...Over, costing 0.91s
+
+Data Construction(downsampling & corrpution)...Over, costing 0.23s
+	-->Data Information:<--
+	num_groups = 2
+	start_person_id = 6
+	number of total samples = 128
+	dimension of each sample = 2016
+	number of outliers = 32
+	outlier_mod = 1
+
+Inliers detection...
+		 number of detected inliers/ true inliers = 99/96 ;
+		 number of detected inliers/ true outliers = 29/32 ;
+		 number of undetected true inliers/ true inliers = 0/96;
+		 number of undetected true outliers/ true outliers = 3/32;
+	...Over, took 0.247s.
+
+Basis reconstrution...
+	rank of each estimated space = 8
+	-->Now run SSC algorithm<--
+		Constructing adjacency matrix...Done, costing 51.313s
+		BuildAdjacency...Done, costing 0.000s
+		SpectralClustering...Done, costing 0.059s
+	-->missrate_in = 0.030303<--
+	Over, costing 0.57s
+
+Outlier classification...
+	with ground truth bases...
+	Progress:[##################################################] 100%
+	with reconstructed bases...
+	Progress:[##################################################] 100%
+	Over, took 10.34s
+In this case, missrate_out_gt = 0.000, missrate_out_reconstructed = 0.000,
+with undetected_outlier_num_ratio = 0.094
+
+================================================================================
+Progress 3/36: num_groups = 2, start_person_id = 11
+================================================================================
+Data Loading...Over, costing 1.01s
+
+Data Construction(downsampling & corrpution)...Over, costing 0.29s
+	-->Data Information:<--
+	num_groups = 2
+	start_person_id = 11
+	number of total samples = 119
+	dimension of each sample = 2016
+	number of outliers = 32
+	outlier_mod = 1
+
+Inliers detection...
+		 number of detected inliers/ true inliers = 92/87 ;
+		 number of detected inliers/ true outliers = 27/32 ;
+		 number of undetected true inliers/ true inliers = 0/87;
+		 number of undetected true outliers/ true outliers = 5/32;
+	...Over, took 0.298s.
+
+Basis reconstrution...
+	rank of each estimated space = 8
+	-->Now run SSC algorithm<--
+		Constructing adjacency matrix...Done, costing 46.566s
+		BuildAdjacency...Done, costing 0.000s
+		SpectralClustering...Done, costing 0.040s
+	-->missrate_in = 0<--
+	Over, costing 0.50s
+
+Outlier classification...
+	with ground truth bases...
+	Progress:[##################################################] 100%
+	with reconstructed bases...
+	Progress:[##################################################] 100%
+	Over, took 8.36s
+In this case, missrate_out_gt = 0.000, missrate_out_reconstructed = 0.000,
+with undetected_outlier_num_ratio = 0.156
+
+================================================================================
+Progress 4/36: num_groups = 2, start_person_id = 16
+================================================================================
+Data Loading...Over, costing 0.88s
+
+Data Construction(downsampling & corrpution)...Over, costing 0.23s
+	-->Data Information:<--
+	num_groups = 2
+	start_person_id = 16
+	number of total samples = 126
+	dimension of each sample = 2016
+	number of outliers = 32
+	outlier_mod = 1
+
+Inliers detection...
+		 number of detected inliers/ true inliers = 96/94 ;
+		 number of detected inliers/ true outliers = 30/32 ;
+		 number of undetected true inliers/ true inliers = 2/94;
+		 number of undetected true outliers/ true outliers = 4/32;
+	...Over, took 0.256s.
+
+Basis reconstrution...
+	rank of each estimated space = 8
+	-->Now run SSC algorithm<--
+		Constructing adjacency matrix...Done, costing 48.293s
+		BuildAdjacency...Done, costing 0.000s
+		SpectralClustering...Done, costing 0.037s
+	-->missrate_in = 0.041667<--
+	Over, costing 0.51s
+
+Outlier classification...
+	with ground truth bases...
+	Progress:[##################################################] 100%
+	with reconstructed bases...
+	Progress:[##################################################] 100%
+	Over, took 8.35s
+In this case, missrate_out_gt = 0.000, missrate_out_reconstructed = 0.000,
+with undetected_outlier_num_ratio = 0.125
+
+================================================================================
+Progress 5/36: num_groups = 2, start_person_id = 21
+================================================================================
+Data Loading...Over, costing 1.07s
+
+Data Construction(downsampling & corrpution)...Over, costing 0.29s
+	-->Data Information:<--
+	num_groups = 2
+	start_person_id = 21
+	number of total samples = 128
+	dimension of each sample = 2016
+	number of outliers = 32
+	outlier_mod = 1
+
+Inliers detection...
+		 number of detected inliers/ true inliers = 100/96 ;
+		 number of detected inliers/ true outliers = 28/32 ;
+		 number of undetected true inliers/ true inliers = 0/96;
+		 number of undetected true outliers/ true outliers = 4/32;
+	...Over, took 0.278s.
+
+Basis reconstrution...
+	rank of each estimated space = 8
+	-->Now run SSC algorithm<--
+		Constructing adjacency matrix...Done, costing 49.355s
+		BuildAdjacency...Done, costing 0.001s
+		SpectralClustering...Done, costing 0.035s
+	-->missrate_in = 0<--
+	Over, costing 0.48s
+
+Outlier classification...
+	with ground truth bases...
+	Progress:[##################################################] 100%
+	with reconstructed bases...
+	Progress:[##################################################] 100%
+	Over, took 7.91s
+In this case, missrate_out_gt = 0.000, missrate_out_reconstructed = 0.000,
+with undetected_outlier_num_ratio = 0.125
+
+================================================================================
+Progress 6/36: num_groups = 2, start_person_id = 26
+================================================================================
+Data Loading...Over, costing 0.88s
+
+Data Construction(downsampling & corrpution)...Over, costing 0.27s
+	-->Data Information:<--
+	num_groups = 2
+	start_person_id = 26
+	number of total samples = 128
+	dimension of each sample = 2016
+	number of outliers = 32
+	outlier_mod = 1
+
+Inliers detection...
+		 number of detected inliers/ true inliers = 96/96 ;
+		 number of detected inliers/ true outliers = 32/32 ;
+		 number of undetected true inliers/ true inliers = 3/96;
+		 number of undetected true outliers/ true outliers = 3/32;
+	...Over, took 0.276s.
+
+Basis reconstrution...
+	rank of each estimated space = 8
+	-->Now run SSC algorithm<--
+		Constructing adjacency matrix...Done, costing 52.320s
+		BuildAdjacency...Done, costing 0.000s
+		SpectralClustering...Done, costing 0.046s
+	-->missrate_in = 0<--
+	Over, costing 0.67s
+
+Outlier classification...
+	with ground truth bases...
+	Progress:[##################################################] 100%
+	with reconstructed bases...
+	Progress:[##################################################] 100%
+	Over, took 11.47s
+In this case, missrate_out_gt = 0.000, missrate_out_reconstructed = 0.000,
+with undetected_outlier_num_ratio = 0.094
+
+================================================================================
+Progress 7/36: num_groups = 3, start_person_id = 1
+================================================================================
+Data Loading...Over, costing 0.94s
+
+Data Construction(downsampling & corrpution)...Over, costing 0.43s
+	-->Data Information:<--
+	num_groups = 3
+	start_person_id = 1
+	number of total samples = 192
+	dimension of each sample = 2016
+	number of outliers = 48
+	outlier_mod = 1
+
+Inliers detection...
+		 number of detected inliers/ true inliers = 143/144 ;
+		 number of detected inliers/ true outliers = 49/48 ;
+		 number of undetected true inliers/ true inliers = 2/144;
+		 number of undetected true outliers/ true outliers = 1/48;
+	...Over, took 0.468s.
+
+Basis reconstrution...
+	rank of each estimated space = 8
+	-->Now run SSC algorithm<--
+		Constructing adjacency matrix...Done, costing 64.305s
+		BuildAdjacency...Done, costing 0.001s
+		SpectralClustering...Done, costing 0.066s
+	-->missrate_in = 0.027972<--
+	Over, costing 0.75s
+
+Outlier classification...
+	with ground truth bases...
+	Progress:[##################################################] 100%
+	with reconstructed bases...
+	Progress:[##################################################] 100%
+	Over, took 14.55s
+In this case, missrate_out_gt = 0.000, missrate_out_reconstructed = 0.021,
+with undetected_outlier_num_ratio = 0.021
+
+================================================================================
+Progress 8/36: num_groups = 3, start_person_id = 6
+================================================================================
+Data Loading...Over, costing 0.90s
+
+Data Construction(downsampling & corrpution)...Over, costing 0.41s
+	-->Data Information:<--
+	num_groups = 3
+	start_person_id = 6
+	number of total samples = 192
+	dimension of each sample = 2016
+	number of outliers = 48
+	outlier_mod = 1
+
+Inliers detection...
+		 number of detected inliers/ true inliers = 144/144 ;
+		 number of detected inliers/ true outliers = 48/48 ;
+		 number of undetected true inliers/ true inliers = 3/144;
+		 number of undetected true outliers/ true outliers = 3/48;
+	...Over, took 0.501s.
+
+Basis reconstrution...
+	rank of each estimated space = 8
+	-->Now run SSC algorithm<--
+		Constructing adjacency matrix...Done, costing 68.479s
+		BuildAdjacency...Done, costing 0.001s
+		SpectralClustering...Done, costing 0.076s
+	-->missrate_in = 0.020833<--
+	Over, costing 0.97s
+
+Outlier classification...
+	with ground truth bases...
+	Progress:[##################################################] 100%
+	with reconstructed bases...
+	Progress:[##################################################] 100%
+	Over, took 13.83s
+In this case, missrate_out_gt = 0.000, missrate_out_reconstructed = 0.022,
+with undetected_outlier_num_ratio = 0.063
+
+================================================================================
+Progress 9/36: num_groups = 3, start_person_id = 11
+================================================================================
+Data Loading...Over, costing 0.91s
+
+Data Construction(downsampling & corrpution)...Over, costing 0.33s
+	-->Data Information:<--
+	num_groups = 3
+	start_person_id = 11
+	number of total samples = 179
+	dimension of each sample = 2016
+	number of outliers = 48
+	outlier_mod = 1
+
+Inliers detection...
+		 number of detected inliers/ true inliers = 135/131 ;
+		 number of detected inliers/ true outliers = 44/48 ;
+		 number of undetected true inliers/ true inliers = 0/131;
+		 number of undetected true outliers/ true outliers = 4/48;
+	...Over, took 0.409s.
+
+Basis reconstrution...
+	rank of each estimated space = 8
+	-->Now run SSC algorithm<--
+		Constructing adjacency matrix...Done, costing 65.464s
+		BuildAdjacency...Done, costing 0.001s
+		SpectralClustering...Done, costing 0.135s
+	-->missrate_in = 0.0074074<--
+	Over, costing 0.92s
+
+Outlier classification...
+	with ground truth bases...
+	Progress:[##################################################] 100%
+	with reconstructed bases...
+	Progress:[##################################################] 100%
+	Over, took 16.54s
+In this case, missrate_out_gt = 0.000, missrate_out_reconstructed = 0.023,
+with undetected_outlier_num_ratio = 0.083
+
+================================================================================
+Progress 10/36: num_groups = 3, start_person_id = 16
+================================================================================
+Data Loading...Over, costing 1.11s
+
+Data Construction(downsampling & corrpution)...Over, costing 0.87s
+	-->Data Information:<--
+	num_groups = 3
+	start_person_id = 16
+	number of total samples = 190
+	dimension of each sample = 2016
+	number of outliers = 48
+	outlier_mod = 1
+
+Inliers detection...
+		 number of detected inliers/ true inliers = 144/142 ;
+		 number of detected inliers/ true outliers = 46/48 ;
+		 number of undetected true inliers/ true inliers = 1/142;
+		 number of undetected true outliers/ true outliers = 3/48;
+	...Over, took 0.666s.
+
+Basis reconstrution...
+	rank of each estimated space = 8
+	-->Now run SSC algorithm<--
+		Constructing adjacency matrix...Done, costing 68.764s
+		BuildAdjacency...Done, costing 0.001s
+		SpectralClustering...Done, costing 0.120s
+	-->missrate_in = 0<--
+	Over, costing 1.09s
+
+Outlier classification...
+	with ground truth bases...
+	Progress:[##################################################] 100%
+	with reconstructed bases...
+	Progress:[##################################################] 100%
+	Over, took 16.27s
+In this case, missrate_out_gt = 0.000, missrate_out_reconstructed = 0.000,
+with undetected_outlier_num_ratio = 0.063
+
+================================================================================
+Progress 11/36: num_groups = 3, start_person_id = 21
+================================================================================
+Data Loading...Over, costing 0.84s
+
+Data Construction(downsampling & corrpution)...Over, costing 0.35s
+	-->Data Information:<--
+	num_groups = 3
+	start_person_id = 21
+	number of total samples = 192
+	dimension of each sample = 2016
+	number of outliers = 48
+	outlier_mod = 1
+
+Inliers detection...
+		 number of detected inliers/ true inliers = 141/144 ;
+		 number of detected inliers/ true outliers = 51/48 ;
+		 number of undetected true inliers/ true inliers = 4/144;
+		 number of undetected true outliers/ true outliers = 1/48;
+	...Over, took 0.435s.
+
+Basis reconstrution...
+	rank of each estimated space = 8
+	-->Now run SSC algorithm<--
+		Constructing adjacency matrix...Done, costing 64.287s
+		BuildAdjacency...Done, costing 0.000s
+		SpectralClustering...Done, costing 0.052s
+	-->missrate_in = 0.0070922<--
+	Over, costing 0.75s
+
+Outlier classification...
+	with ground truth bases...
+	Progress:[##################################################] 100%
+	with reconstructed bases...
+	Progress:[##################################################] 100%
+	Over, took 14.26s
+In this case, missrate_out_gt = 0.000, missrate_out_reconstructed = 0.000,
+with undetected_outlier_num_ratio = 0.021
+
+================================================================================
+Progress 12/36: num_groups = 3, start_person_id = 26
+================================================================================
+Data Loading...Over, costing 1.09s
+
+Data Construction(downsampling & corrpution)...Over, costing 0.43s
+	-->Data Information:<--
+	num_groups = 3
+	start_person_id = 26
+	number of total samples = 192
+	dimension of each sample = 2016
+	number of outliers = 48
+	outlier_mod = 1
+
+Inliers detection...
+		 number of detected inliers/ true inliers = 141/144 ;
+		 number of detected inliers/ true outliers = 51/48 ;
+		 number of undetected true inliers/ true inliers = 5/144;
+		 number of undetected true outliers/ true outliers = 2/48;
+	...Over, took 0.492s.
+
+Basis reconstrution...
+	rank of each estimated space = 8
+	-->Now run SSC algorithm<--
+		Constructing adjacency matrix...Done, costing 62.620s
+		BuildAdjacency...Done, costing 0.000s
+		SpectralClustering...Done, costing 0.052s
+	-->missrate_in = 0<--
+	Over, costing 0.67s
+
+Outlier classification...
+	with ground truth bases...
+	Progress:[##################################################] 100%
+	with reconstructed bases...
+	Progress:[##################################################] 100%
+	Over, took 14.20s
+In this case, missrate_out_gt = 0.000, missrate_out_reconstructed = 0.000,
+with undetected_outlier_num_ratio = 0.042
+
+================================================================================
+Progress 13/36: num_groups = 5, start_person_id = 1
+================================================================================
+Data Loading...Over, costing 0.81s
+
+Data Construction(downsampling & corrpution)...Over, costing 0.56s
+	-->Data Information:<--
+	num_groups = 5
+	start_person_id = 1
+	number of total samples = 320
+	dimension of each sample = 2016
+	number of outliers = 80
+	outlier_mod = 1
+
+Inliers detection...
+		 number of detected inliers/ true inliers = 229/240 ;
+		 number of detected inliers/ true outliers = 91/80 ;
+		 number of undetected true inliers/ true inliers = 13/240;
+		 number of undetected true outliers/ true outliers = 2/80;
+	...Over, took 1.224s.
+
+Basis reconstrution...
+	rank of each estimated space = 8
+	-->Now run SSC algorithm<--
+		Constructing adjacency matrix...Done, costing 95.085s
+		BuildAdjacency...Done, costing 0.001s
+		SpectralClustering...Done, costing 0.110s
+	-->missrate_in = 0.039301<--
+	Over, costing 1.11s
+
+Outlier classification...
+	with ground truth bases...
+	Progress:[##################################################] 100%
+	with reconstructed bases...
+	Progress:[##################################################] 100%
+	Over, took 26.86s
+In this case, missrate_out_gt = 0.000, missrate_out_reconstructed = 0.026,
+with undetected_outlier_num_ratio = 0.025
+
+================================================================================
+Progress 14/36: num_groups = 5, start_person_id = 6
+================================================================================
+Data Loading...Over, costing 0.85s
+
+Data Construction(downsampling & corrpution)...Over, costing 0.59s
+	-->Data Information:<--
+	num_groups = 5
+	start_person_id = 6
+	number of total samples = 320
+	dimension of each sample = 2016
+	number of outliers = 80
+	outlier_mod = 1
+
+Inliers detection...
+		 number of detected inliers/ true inliers = 237/240 ;
+		 number of detected inliers/ true outliers = 83/80 ;
+		 number of undetected true inliers/ true inliers = 5/240;
+		 number of undetected true outliers/ true outliers = 2/80;
+	...Over, took 1.544s.
+
+Basis reconstrution...
+	rank of each estimated space = 8
+	-->Now run SSC algorithm<--
+		Constructing adjacency matrix...Done, costing 103.467s
+		BuildAdjacency...Done, costing 0.001s
+		SpectralClustering...Done, costing 0.089s
+	-->missrate_in = 0.16034<--
+	Over, costing 1.16s
+
+Outlier classification...
+	with ground truth bases...
+	Progress:[##################################################] 100%
+	with reconstructed bases...
+	Progress:[##################################################] 100%
+	Over, took 25.98s
+In this case, missrate_out_gt = 0.013, missrate_out_reconstructed = 0.064,
+with undetected_outlier_num_ratio = 0.025
+
+================================================================================
+Progress 15/36: num_groups = 5, start_person_id = 11
+================================================================================
+Data Loading...Over, costing 1.08s
+
+Data Construction(downsampling & corrpution)...Over, costing 0.85s
+	-->Data Information:<--
+	num_groups = 5
+	start_person_id = 11
+	number of total samples = 304
+	dimension of each sample = 2016
+	number of outliers = 80
+	outlier_mod = 1
+
+Inliers detection...
+		 number of detected inliers/ true inliers = 223/224 ;
+		 number of detected inliers/ true outliers = 81/80 ;
+		 number of undetected true inliers/ true inliers = 3/224;
+		 number of undetected true outliers/ true outliers = 2/80;
+	...Over, took 1.277s.
+
+Basis reconstrution...
+	rank of each estimated space = 8
+	-->Now run SSC algorithm<--
+		Constructing adjacency matrix...Done, costing 93.889s
+		BuildAdjacency...Done, costing 0.001s
+		SpectralClustering...Done, costing 0.096s
+	-->missrate_in = 0.049327<--
+	Over, costing 1.13s
+
+Outlier classification...
+	with ground truth bases...
+	Progress:[##################################################] 100%
+	with reconstructed bases...
+	Progress:[##################################################] 100%
+	Over, took 25.26s
+In this case, missrate_out_gt = 0.025, missrate_out_reconstructed = 0.051,
+with undetected_outlier_num_ratio = 0.025
+
+================================================================================
+Progress 16/36: num_groups = 5, start_person_id = 16
+================================================================================
+Data Loading...Over, costing 0.88s
+
+Data Construction(downsampling & corrpution)...Over, costing 0.85s
+	-->Data Information:<--
+	num_groups = 5
+	start_person_id = 16
+	number of total samples = 318
+	dimension of each sample = 2016
+	number of outliers = 80
+	outlier_mod = 1
+
+Inliers detection...
+		 number of detected inliers/ true inliers = 236/238 ;
+		 number of detected inliers/ true outliers = 82/80 ;
+		 number of undetected true inliers/ true inliers = 6/238;
+		 number of undetected true outliers/ true outliers = 4/80;
+	...Over, took 1.897s.
+
+Basis reconstrution...
+	rank of each estimated space = 8
+	-->Now run SSC algorithm<--
+		Constructing adjacency matrix...Done, costing 102.812s
+		BuildAdjacency...Done, costing 0.001s
+		SpectralClustering...Done, costing 0.095s
+	-->missrate_in = 0.016949<--
+	Over, costing 1.31s
+
+Outlier classification...
+	with ground truth bases...
+	Progress:[##################################################] 100%
+	with reconstructed bases...
+	Progress:[##################################################] 100%
+	Over, took 29.57s
+In this case, missrate_out_gt = 0.025, missrate_out_reconstructed = 0.013,
+with undetected_outlier_num_ratio = 0.050
+
+================================================================================
+Progress 17/36: num_groups = 5, start_person_id = 21
+================================================================================
+Data Loading...Over, costing 0.89s
+
+Data Construction(downsampling & corrpution)...Over, costing 0.70s
+	-->Data Information:<--
+	num_groups = 5
+	start_person_id = 21
+	number of total samples = 320
+	dimension of each sample = 2016
+	number of outliers = 80
+	outlier_mod = 1
+
+Inliers detection...
+		 number of detected inliers/ true inliers = 232/240 ;
+		 number of detected inliers/ true outliers = 88/80 ;
+		 number of undetected true inliers/ true inliers = 12/240;
+		 number of undetected true outliers/ true outliers = 4/80;
+	...Over, took 1.521s.
+
+Basis reconstrution...
+	rank of each estimated space = 8
+	-->Now run SSC algorithm<--
+		Constructing adjacency matrix...Done, costing 103.016s
+		BuildAdjacency...Done, costing 0.001s
+		SpectralClustering...Done, costing 0.084s
+	-->missrate_in = 0.021552<--
+	Over, costing 1.20s
+
+Outlier classification...
+	with ground truth bases...
+	Progress:[##################################################] 100%
+	with reconstructed bases...
+	Progress:[##################################################] 100%
+	Over, took 27.54s
+In this case, missrate_out_gt = 0.025, missrate_out_reconstructed = 0.039,
+with undetected_outlier_num_ratio = 0.050
+
+================================================================================
+Progress 18/36: num_groups = 5, start_person_id = 26
+================================================================================
+Data Loading...Over, costing 1.11s
+
+Data Construction(downsampling & corrpution)...Over, costing 0.63s
+	-->Data Information:<--
+	num_groups = 5
+	start_person_id = 26
+	number of total samples = 320
+	dimension of each sample = 2016
+	number of outliers = 80
+	outlier_mod = 1
+
+Inliers detection...
+		 number of detected inliers/ true inliers = 232/240 ;
+		 number of detected inliers/ true outliers = 88/80 ;
+		 number of undetected true inliers/ true inliers = 10/240;
+		 number of undetected true outliers/ true outliers = 2/80;
+	...Over, took 1.293s.
+
+Basis reconstrution...
+	rank of each estimated space = 8
+	-->Now run SSC algorithm<--
+		Constructing adjacency matrix...Done, costing 96.315s
+		BuildAdjacency...Done, costing 0.001s
+		SpectralClustering...Done, costing 0.086s
+	-->missrate_in = 0.0086207<--
+	Over, costing 1.17s
+
+Outlier classification...
+	with ground truth bases...
+	Progress:[##################################################] 100%
+	with reconstructed bases...
+	Progress:[##################################################] 100%
+	Over, took 30.35s
+In this case, missrate_out_gt = 0.013, missrate_out_reconstructed = 0.013,
+with undetected_outlier_num_ratio = 0.025
+
+================================================================================
+Progress 19/36: num_groups = 8, start_person_id = 1
+================================================================================
+Data Loading...Over, costing 1.12s
+
+Data Construction(downsampling & corrpution)...Over, costing 1.20s
+	-->Data Information:<--
+	num_groups = 8
+	start_person_id = 1
+	number of total samples = 512
+	dimension of each sample = 2016
+	number of outliers = 128
+	outlier_mod = 1
+
+Inliers detection...
+		 number of detected inliers/ true inliers = 363/384 ;
+		 number of detected inliers/ true outliers = 149/128 ;
+		 number of undetected true inliers/ true inliers = 22/384;
+		 number of undetected true outliers/ true outliers = 1/128;
+	...Over, took 4.956s.
+
+Basis reconstrution...
+	rank of each estimated space = 8
+	-->Now run SSC algorithm<--
+		Constructing adjacency matrix...Done, costing 151.540s
+		BuildAdjacency...Done, costing 0.005s
+		SpectralClustering...Done, costing 0.165s
+	-->missrate_in = 0.12121<--
+	Over, costing 2.00s
+
+Outlier classification...
+	with ground truth bases...
+	Progress:[##################################################] 100%
+	with reconstructed bases...
+	Progress:[##################################################] 100%
+	Over, took 56.08s
+In this case, missrate_out_gt = 0.023, missrate_out_reconstructed = 0.079,
+with undetected_outlier_num_ratio = 0.008
+
+================================================================================
+Progress 20/36: num_groups = 8, start_person_id = 6
+================================================================================
+Data Loading...Over, costing 1.11s
+
+Data Construction(downsampling & corrpution)...Over, costing 1.11s
+	-->Data Information:<--
+	num_groups = 8
+	start_person_id = 6
+	number of total samples = 499
+	dimension of each sample = 2016
+	number of outliers = 128
+	outlier_mod = 1
+
+Inliers detection...
+		 number of detected inliers/ true inliers = 347/371 ;
+		 number of detected inliers/ true outliers = 152/128 ;
+		 number of undetected true inliers/ true inliers = 28/371;
+		 number of undetected true outliers/ true outliers = 4/128;
+	...Over, took 4.683s.
+
+Basis reconstrution...
+	rank of each estimated space = 8
+	-->Now run SSC algorithm<--
+		Constructing adjacency matrix...Done, costing 136.287s
+		BuildAdjacency...Done, costing 0.002s
+		SpectralClustering...Done, costing 0.138s
+	-->missrate_in = 0.23055<--
+	Over, costing 1.96s
+
+Outlier classification...
+	with ground truth bases...
+	Progress:[##################################################] 100%
+	with reconstructed bases...
+	Progress:[##################################################] 100%
+	Over, took 54.31s
+In this case, missrate_out_gt = 0.016, missrate_out_reconstructed = 0.097,
+with undetected_outlier_num_ratio = 0.031
+
+================================================================================
+Progress 21/36: num_groups = 8, start_person_id = 11
+================================================================================
+Data Loading...Over, costing 1.10s
+
+Data Construction(downsampling & corrpution)...Over, costing 1.04s
+	-->Data Information:<--
+	num_groups = 8
+	start_person_id = 11
+	number of total samples = 494
+	dimension of each sample = 2016
+	number of outliers = 128
+	outlier_mod = 1
+
+Inliers detection...
+		 number of detected inliers/ true inliers = 347/366 ;
+		 number of detected inliers/ true outliers = 147/128 ;
+		 number of undetected true inliers/ true inliers = 19/366;
+		 number of undetected true outliers/ true outliers = 0/128;
+	...Over, took 3.886s.
+
+Basis reconstrution...
+	rank of each estimated space = 8
+	-->Now run SSC algorithm<--
+		Constructing adjacency matrix...Done, costing 141.813s
+		BuildAdjacency...Done, costing 0.003s
+		SpectralClustering...Done, costing 0.241s
+	-->missrate_in = 0.10086<--
+	Over, costing 2.21s
+
+Outlier classification...
+	with ground truth bases...
+	Progress:[##################################################] 100%
+	with reconstructed bases...
+	Progress:[##################################################] 100%
+	Over, took 56.17s
+In this case, missrate_out_gt = 0.039, missrate_out_reconstructed = 0.063,
+with undetected_outlier_num_ratio = 0.000
+
+================================================================================
+Progress 22/36: num_groups = 8, start_person_id = 16
+================================================================================
+Data Loading...Over, costing 1.00s
+
+Data Construction(downsampling & corrpution)...Over, costing 1.02s
+	-->Data Information:<--
+	num_groups = 8
+	start_person_id = 16
+	number of total samples = 510
+	dimension of each sample = 2016
+	number of outliers = 128
+	outlier_mod = 1
+
+Inliers detection...
+		 number of detected inliers/ true inliers = 360/382 ;
+		 number of detected inliers/ true outliers = 150/128 ;
+		 number of undetected true inliers/ true inliers = 23/382;
+		 number of undetected true outliers/ true outliers = 1/128;
+	...Over, took 3.931s.
+
+Basis reconstrution...
+	rank of each estimated space = 8
+	-->Now run SSC algorithm<--
+		Constructing adjacency matrix...Done, costing 144.405s
+		BuildAdjacency...Done, costing 0.004s
+		SpectralClustering...Done, costing 0.193s
+	-->missrate_in = 0.013889<--
+	Over, costing 2.36s
+
+Outlier classification...
+	with ground truth bases...
+	Progress:[##################################################] 100%
+	with reconstructed bases...
+	Progress:[##################################################] 100%
+	Over, took 62.39s
+In this case, missrate_out_gt = 0.023, missrate_out_reconstructed = 0.031,
+with undetected_outlier_num_ratio = 0.008
+
+================================================================================
+Progress 23/36: num_groups = 8, start_person_id = 21
+================================================================================
+Data Loading...Over, costing 1.01s
+
+Data Construction(downsampling & corrpution)...Over, costing 1.28s
+	-->Data Information:<--
+	num_groups = 8
+	start_person_id = 21
+	number of total samples = 512
+	dimension of each sample = 2016
+	number of outliers = 128
+	outlier_mod = 1
+
+Inliers detection...
+		 number of detected inliers/ true inliers = 358/384 ;
+		 number of detected inliers/ true outliers = 154/128 ;
+		 number of undetected true inliers/ true inliers = 30/384;
+		 number of undetected true outliers/ true outliers = 4/128;
+	...Over, took 3.975s.
+
+Basis reconstrution...
+	rank of each estimated space = 8
+	-->Now run SSC algorithm<--
+		Constructing adjacency matrix...Done, costing 143.406s
+		BuildAdjacency...Done, costing 0.003s
+		SpectralClustering...Done, costing 0.153s
+	-->missrate_in = 0.0083799<--
+	Over, costing 1.87s
+
+Outlier classification...
+	with ground truth bases...
+	Progress:[##################################################] 100%
+	with reconstructed bases...
+	Progress:[##################################################] 100%
+	Over, took 54.89s
+In this case, missrate_out_gt = 0.023, missrate_out_reconstructed = 0.024,
+with undetected_outlier_num_ratio = 0.031
+
+================================================================================
+Progress 24/36: num_groups = 8, start_person_id = 26
+================================================================================
+Data Loading...Over, costing 1.07s
+
+Data Construction(downsampling & corrpution)...Over, costing 0.94s
+	-->Data Information:<--
+	num_groups = 8
+	start_person_id = 26
+	number of total samples = 512
+	dimension of each sample = 2016
+	number of outliers = 128
+	outlier_mod = 1
+
+Inliers detection...
+		 number of detected inliers/ true inliers = 358/384 ;
+		 number of detected inliers/ true outliers = 154/128 ;
+		 number of undetected true inliers/ true inliers = 28/384;
+		 number of undetected true outliers/ true outliers = 2/128;
+	...Over, took 4.065s.
+
+Basis reconstrution...
+	rank of each estimated space = 8
+	-->Now run SSC algorithm<--
+		Constructing adjacency matrix...Done, costing 142.257s
+		BuildAdjacency...Done, costing 0.003s
+		SpectralClustering...Done, costing 0.148s
+	-->missrate_in = 0.10056<--
+	Over, costing 1.97s
+
+Outlier classification...
+	with ground truth bases...
+	Progress:[##################################################] 100%
+	with reconstructed bases...
+	Progress:[##################################################] 100%
+	Over, took 54.53s
+In this case, missrate_out_gt = 0.023, missrate_out_reconstructed = 0.063,
+with undetected_outlier_num_ratio = 0.016
+
+================================================================================
+Progress 25/36: num_groups = 10, start_person_id = 1
+================================================================================
+Data Loading...Over, costing 0.86s
+
+Data Construction(downsampling & corrpution)...Over, costing 1.17s
+	-->Data Information:<--
+	num_groups = 10
+	start_person_id = 1
+	number of total samples = 640
+	dimension of each sample = 2016
+	number of outliers = 160
+	outlier_mod = 1
+
+Inliers detection...
+		 number of detected inliers/ true inliers = 442/480 ;
+		 number of detected inliers/ true outliers = 198/160 ;
+		 number of undetected true inliers/ true inliers = 39/480;
+		 number of undetected true outliers/ true outliers = 1/160;
+	...Over, took 7.991s.
+
+Basis reconstrution...
+	rank of each estimated space = 8
+	-->Now run SSC algorithm<--
+		Constructing adjacency matrix...Done, costing 175.509s
+		BuildAdjacency...Done, costing 0.006s
+		SpectralClustering...Done, costing 0.226s
+	-->missrate_in = 0.12896<--
+	Over, costing 2.89s
+
+Outlier classification...
+	with ground truth bases...
+	Progress:[##################################################] 100%
+	with reconstructed bases...
+	Progress:[##################################################] 100%
+	Over, took 72.65s
+In this case, missrate_out_gt = 0.019, missrate_out_reconstructed = 0.088,
+with undetected_outlier_num_ratio = 0.006
+
+================================================================================
+Progress 26/36: num_groups = 10, start_person_id = 6
+================================================================================
+Data Loading...Over, costing 1.11s
+
+Data Construction(downsampling & corrpution)...Over, costing 1.22s
+	-->Data Information:<--
+	num_groups = 10
+	start_person_id = 6
+	number of total samples = 624
+	dimension of each sample = 2016
+	number of outliers = 160
+	outlier_mod = 1
+
+Inliers detection...
+		 number of detected inliers/ true inliers = 421/464 ;
+		 number of detected inliers/ true outliers = 203/160 ;
+		 number of undetected true inliers/ true inliers = 46/464;
+		 number of undetected true outliers/ true outliers = 3/160;
+	...Over, took 6.487s.
+
+Basis reconstrution...
+	rank of each estimated space = 8
+	-->Now run SSC algorithm<--
+		Constructing adjacency matrix...Done, costing 153.973s
+		BuildAdjacency...Done, costing 0.005s
+		SpectralClustering...Done, costing 0.187s
+	-->missrate_in = 0.26128<--
+	Over, costing 2.22s
+
+Outlier classification...
+	with ground truth bases...
+	Progress:[##################################################] 100%
+	with reconstructed bases...
+	Progress:[##################################################] 100%
+	Over, took 69.84s
+In this case, missrate_out_gt = 0.013, missrate_out_reconstructed = 0.210,
+with undetected_outlier_num_ratio = 0.019
+
+================================================================================
+Progress 27/36: num_groups = 10, start_person_id = 11
+================================================================================
+Data Loading...Over, costing 0.87s
+
+Data Construction(downsampling & corrpution)...Over, costing 1.14s
+	-->Data Information:<--
+	num_groups = 10
+	start_person_id = 11
+	number of total samples = 622
+	dimension of each sample = 2016
+	number of outliers = 160
+	outlier_mod = 1
+
+Inliers detection...
+		 number of detected inliers/ true inliers = 414/462 ;
+		 number of detected inliers/ true outliers = 208/160 ;
+		 number of undetected true inliers/ true inliers = 48/462;
+		 number of undetected true outliers/ true outliers = 0/160;
+	...Over, took 5.592s.
+
+Basis reconstrution...
+	rank of each estimated space = 8
+	-->Now run SSC algorithm<--
+		Constructing adjacency matrix...Done, costing 156.930s
+		BuildAdjacency...Done, costing 0.006s
+		SpectralClustering...Done, costing 0.187s
+	-->missrate_in = 0.18357<--
+	Over, costing 2.11s
+
+Outlier classification...
+	with ground truth bases...
+	Progress:[##################################################] 100%
+	with reconstructed bases...
+	Progress:[##################################################] 100%
+	Over, took 74.04s
+In this case, missrate_out_gt = 0.031, missrate_out_reconstructed = 0.081,
+with undetected_outlier_num_ratio = 0.000
+
+================================================================================
+Progress 28/36: num_groups = 10, start_person_id = 16
+================================================================================
+Data Loading...Over, costing 0.96s
+
+Data Construction(downsampling & corrpution)...Over, costing 1.18s
+	-->Data Information:<--
+	num_groups = 10
+	start_person_id = 16
+	number of total samples = 638
+	dimension of each sample = 2016
+	number of outliers = 160
+	outlier_mod = 1
+
+Inliers detection...
+		 number of detected inliers/ true inliers = 446/478 ;
+		 number of detected inliers/ true outliers = 192/160 ;
+		 number of undetected true inliers/ true inliers = 34/478;
+		 number of undetected true outliers/ true outliers = 2/160;
+	...Over, took 6.841s.
+
+Basis reconstrution...
+	rank of each estimated space = 8
+	-->Now run SSC algorithm<--
+		Constructing adjacency matrix...Done, costing 166.191s
+		BuildAdjacency...Done, costing 0.006s
+		SpectralClustering...Done, costing 0.192s
+	-->missrate_in = 0.015695<--
+	Over, costing 2.31s
+
+Outlier classification...
+	with ground truth bases...
+	Progress:[##################################################] 100%
+	with reconstructed bases...
+	Progress:[##################################################] 100%
+	Over, took 67.82s
+In this case, missrate_out_gt = 0.025, missrate_out_reconstructed = 0.044,
+with undetected_outlier_num_ratio = 0.013
+
+================================================================================
+Progress 29/36: num_groups = 10, start_person_id = 21
+================================================================================
+Data Loading...Over, costing 1.09s
+
+Data Construction(downsampling & corrpution)...Over, costing 1.36s
+	-->Data Information:<--
+	num_groups = 10
+	start_person_id = 21
+	number of total samples = 640
+	dimension of each sample = 2016
+	number of outliers = 160
+	outlier_mod = 1
+
+Inliers detection...
+		 number of detected inliers/ true inliers = 435/480 ;
+		 number of detected inliers/ true outliers = 205/160 ;
+		 number of undetected true inliers/ true inliers = 47/480;
+		 number of undetected true outliers/ true outliers = 2/160;
+	...Over, took 6.398s.
+
+Basis reconstrution...
+	rank of each estimated space = 8
+	-->Now run SSC algorithm<--
+		Constructing adjacency matrix...Done, costing 159.590s
+		BuildAdjacency...Done, costing 0.005s
+		SpectralClustering...Done, costing 0.168s
+	-->missrate_in = 0.013793<--
+	Over, costing 2.29s
+
+Outlier classification...
+	with ground truth bases...
+	Progress:[##################################################] 100%
+	with reconstructed bases...
+	Progress:[##################################################] 100%
+	Over, took 73.07s
+In this case, missrate_out_gt = 0.037, missrate_out_reconstructed = 0.032,
+with undetected_outlier_num_ratio = 0.013
+
+================================================================================
+Progress 30/36: num_groups = 10, start_person_id = 26
+================================================================================
+Data Loading...Over, costing 1.10s
+
+Data Construction(downsampling & corrpution)...Over, costing 1.24s
+	-->Data Information:<--
+	num_groups = 10
+	start_person_id = 26
+	number of total samples = 640
+	dimension of each sample = 2016
+	number of outliers = 160
+	outlier_mod = 1
+
+Inliers detection...
+		 number of detected inliers/ true inliers = 439/480 ;
+		 number of detected inliers/ true outliers = 201/160 ;
+		 number of undetected true inliers/ true inliers = 43/480;
+		 number of undetected true outliers/ true outliers = 2/160;
+	...Over, took 6.612s.
+
+Basis reconstrution...
+	rank of each estimated space = 8
+	-->Now run SSC algorithm<--
+		Constructing adjacency matrix...Done, costing 167.194s
+		BuildAdjacency...Done, costing 0.006s
+		SpectralClustering...Done, costing 0.213s
+	-->missrate_in = 0.19818<--
+	Over, costing 2.43s
+
+Outlier classification...
+	with ground truth bases...
+	Progress:[##################################################] 100%
+	with reconstructed bases...
+	Progress:[##################################################] 100%
+	Over, took 73.29s
+In this case, missrate_out_gt = 0.025, missrate_out_reconstructed = 0.146,
+with undetected_outlier_num_ratio = 0.013
+
+================================================================================
+Progress 31/36: num_groups = 12, start_person_id = 1
+================================================================================
+Data Loading...Over, costing 1.09s
+
+Data Construction(downsampling & corrpution)...Over, costing 1.51s
+	-->Data Information:<--
+	num_groups = 12
+	start_person_id = 1
+	number of total samples = 759
+	dimension of each sample = 2016
+	number of outliers = 192
+	outlier_mod = 1
+
+Inliers detection...
+		 number of detected inliers/ true inliers = 518/567 ;
+		 number of detected inliers/ true outliers = 241/192 ;
+		 number of undetected true inliers/ true inliers = 50/567;
+		 number of undetected true outliers/ true outliers = 1/192;
+	...Over, took 9.527s.
+
+Basis reconstrution...
+	rank of each estimated space = 8
+	-->Now run SSC algorithm<--
+		Constructing adjacency matrix...Done, costing 189.398s
+		BuildAdjacency...Done, costing 0.008s
+		SpectralClustering...Done, costing 0.236s
+	-->missrate_in = 0.17761<--
+	Over, costing 2.19s
+
+Outlier classification...
+	with ground truth bases...
+	Progress:[##################################################] 100%
+	with reconstructed bases...
+	Progress:[##################################################] 100%
+	Over, took 87.16s
+In this case, missrate_out_gt = 0.016, missrate_out_reconstructed = 0.089,
+with undetected_outlier_num_ratio = 0.005
+
+================================================================================
+Progress 32/36: num_groups = 12, start_person_id = 6
+================================================================================
+Data Loading...Over, costing 0.86s
+
+Data Construction(downsampling & corrpution)...Over, costing 1.37s
+	-->Data Information:<--
+	num_groups = 12
+	start_person_id = 6
+	number of total samples = 750
+	dimension of each sample = 2016
+	number of outliers = 192
+	outlier_mod = 1
+
+Inliers detection...
+		 number of detected inliers/ true inliers = 503/558 ;
+		 number of detected inliers/ true outliers = 247/192 ;
+		 number of undetected true inliers/ true inliers = 59/558;
+		 number of undetected true outliers/ true outliers = 4/192;
+	...Over, took 9.467s.
+
+Basis reconstrution...
+	rank of each estimated space = 8
+	-->Now run SSC algorithm<--
+		Constructing adjacency matrix...Done, costing 184.927s
+		BuildAdjacency...Done, costing 0.007s
+		SpectralClustering...Done, costing 0.232s
+	-->missrate_in = 0.2008<--
+	Over, costing 2.81s
+
+Outlier classification...
+	with ground truth bases...
+	Progress:[##################################################] 100%
+	with reconstructed bases...
+	Progress:[##################################################] 100%
+	Over, took 88.16s
+In this case, missrate_out_gt = 0.021, missrate_out_reconstructed = 0.117,
+with undetected_outlier_num_ratio = 0.021
+
+================================================================================
+Progress 33/36: num_groups = 12, start_person_id = 11
+================================================================================
+Data Loading...Over, costing 1.09s
+
+Data Construction(downsampling & corrpution)...Over, costing 1.71s
+	-->Data Information:<--
+	num_groups = 12
+	start_person_id = 11
+	number of total samples = 750
+	dimension of each sample = 2016
+	number of outliers = 192
+	outlier_mod = 1
+
+Inliers detection...
+		 number of detected inliers/ true inliers = 480/558 ;
+		 number of detected inliers/ true outliers = 270/192 ;
+		 number of undetected true inliers/ true inliers = 78/558;
+		 number of undetected true outliers/ true outliers = 0/192;
+	...Over, took 9.050s.
+
+Basis reconstrution...
+	rank of each estimated space = 8
+	-->Now run SSC algorithm<--
+		Constructing adjacency matrix...Done, costing 174.271s
+		BuildAdjacency...Done, costing 0.007s
+		SpectralClustering...Done, costing 0.237s
+	-->missrate_in = 0.21667<--
+	Over, costing 2.61s
+
+Outlier classification...
+	with ground truth bases...
+	Progress:[##################################################] 100%
+	with reconstructed bases...
+	Progress:[##################################################] 100%
+	Over, took 92.89s
+In this case, missrate_out_gt = 0.036, missrate_out_reconstructed = 0.130,
+with undetected_outlier_num_ratio = 0.000
+
+================================================================================
+Progress 34/36: num_groups = 12, start_person_id = 16
+================================================================================
+Data Loading...Over, costing 0.99s
+
+Data Construction(downsampling & corrpution)...Over, costing 1.39s
+	-->Data Information:<--
+	num_groups = 12
+	start_person_id = 16
+	number of total samples = 766
+	dimension of each sample = 2016
+	number of outliers = 192
+	outlier_mod = 1
+
+Inliers detection...
+		 number of detected inliers/ true inliers = 518/574 ;
+		 number of detected inliers/ true outliers = 248/192 ;
+		 number of undetected true inliers/ true inliers = 58/574;
+		 number of undetected true outliers/ true outliers = 2/192;
+	...Over, took 9.383s.
+
+Basis reconstrution...
+	rank of each estimated space = 8
+	-->Now run SSC algorithm<--
+		Constructing adjacency matrix...Done, costing 188.587s
+		BuildAdjacency...Done, costing 0.007s
+		SpectralClustering...Done, costing 0.235s
+	-->missrate_in = 0.017375<--
+	Over, costing 2.82s
+
+Outlier classification...
+	with ground truth bases...
+	Progress:[##################################################] 100%
+	with reconstructed bases...
+	Progress:[##################################################] 100%
+	Over, took 96.72s
+In this case, missrate_out_gt = 0.026, missrate_out_reconstructed = 0.042,
+with undetected_outlier_num_ratio = 0.010
+
+================================================================================
+Progress 35/36: num_groups = 12, start_person_id = 21
+================================================================================
+Data Loading...Over, costing 0.94s
+
+Data Construction(downsampling & corrpution)...Over, costing 1.55s
+	-->Data Information:<--
+	num_groups = 12
+	start_person_id = 21
+	number of total samples = 768
+	dimension of each sample = 2016
+	number of outliers = 192
+	outlier_mod = 1
+
+Inliers detection...
+		 number of detected inliers/ true inliers = 509/576 ;
+		 number of detected inliers/ true outliers = 259/192 ;
+		 number of undetected true inliers/ true inliers = 69/576;
+		 number of undetected true outliers/ true outliers = 2/192;
+	...Over, took 11.102s.
+
+Basis reconstrution...
+	rank of each estimated space = 8
+	-->Now run SSC algorithm<--
+		Constructing adjacency matrix...Done, costing 207.392s
+		BuildAdjacency...Done, costing 0.009s
+		SpectralClustering...Done, costing 0.352s
+	-->missrate_in = 0.017682<--
+	Over, costing 3.64s
+
+Outlier classification...
+	with ground truth bases...
+	Progress:[##################################################] 100%
+	with reconstructed bases...
+	Progress:[##################################################] 100%
+	Over, took 110.03s
+In this case, missrate_out_gt = 0.031, missrate_out_reconstructed = 0.042,
+with undetected_outlier_num_ratio = 0.010
+
+================================================================================
+Progress 36/36: num_groups = 12, start_person_id = 26
+================================================================================
+Data Loading...Over, costing 1.15s
+
+Data Construction(downsampling & corrpution)...Over, costing 2.14s
+	-->Data Information:<--
+	num_groups = 12
+	start_person_id = 26
+	number of total samples = 768
+	dimension of each sample = 2016
+	number of outliers = 192
+	outlier_mod = 1
+
+Inliers detection...
+		 number of detected inliers/ true inliers = 520/576 ;
+		 number of detected inliers/ true outliers = 248/192 ;
+		 number of undetected true inliers/ true inliers = 58/576;
+		 number of undetected true outliers/ true outliers = 2/192;
+	...Over, took 10.963s.
+
+Basis reconstrution...
+	rank of each estimated space = 8
+	-->Now run SSC algorithm<--
+		Constructing adjacency matrix...Done, costing 205.527s
+		BuildAdjacency...Done, costing 0.007s
+		SpectralClustering...Done, costing 0.267s
+	-->missrate_in = 0.21538<--
+	Over, costing 2.78s
+
+Outlier classification...
+	with ground truth bases...
+	Progress:[##################################################] 100%
+	with reconstructed bases...
+	Progress:[##################################################] 100%
+	Over, took 100.99s
+In this case, missrate_out_gt = 0.031, missrate_out_reconstructed = 0.195,
+with undetected_outlier_num_ratio = 0.010
+
+>> result_store
+Missrate Out GT Matrix:
+         0         0         0         0         0         0
+         0         0         0         0         0         0
+         0    0.0130    0.0250    0.0250    0.0250    0.0130
+    0.0230    0.0160    0.0390    0.0230    0.0230    0.0230
+    0.0190    0.0130    0.0310    0.0250    0.0370    0.0250
+    0.0160    0.0210    0.0360    0.0260    0.0310    0.0310
+
+Missrate Out Reconstructed Matrix:
+         0         0         0         0         0         0
+    0.0210    0.0220    0.0230         0         0         0
+    0.0260    0.0640    0.0510    0.0130    0.0390    0.0130
+    0.0790    0.0970    0.0630    0.0310    0.0240    0.0630
+    0.0880    0.2100    0.0810    0.0440    0.0320    0.1460
+    0.0890    0.1170    0.1300    0.0420    0.0420    0.1950
+
+Undetected Outlier Num Ratio Matrix:
+    0.0310    0.0940    0.1560    0.1250    0.1250    0.0940
+    0.0210    0.0630    0.0830    0.0630    0.0210    0.0420
+    0.0250    0.0250    0.0250    0.0500    0.0500    0.0250
+    0.0080    0.0310         0    0.0080    0.0310    0.0160
+    0.0060    0.0190         0    0.0130    0.0130    0.0130
+    0.0050    0.0210         0    0.0100    0.0100    0.0100
+
+missrate In Matrix:
+    0.0105    0.0303         0    0.0417         0         0
+    0.0280    0.0208    0.0074         0    0.0071         0
+    0.0393    0.1603    0.0493    0.0169    0.0216    0.0086
+    0.1212    0.2306    0.1009    0.0139    0.0084    0.1006
+    0.1290    0.2613    0.1836    0.0157    0.0138    0.1982
+    0.1776    0.2008    0.2167    0.0174    0.0177    0.2154
+
+Missrate Out GT Stats (Mean, Median):
+         0         0
+         0         0
+    0.0168    0.0190
+    0.0245    0.0230
+    0.0250    0.0250
+    0.0268    0.0285
+
+Missrate Out Reconstructed Stats (Mean, Median):
+         0         0
+    0.0110    0.0105
+    0.0343    0.0325
+    0.0595    0.0630
+    0.1002    0.0845
+    0.1025    0.1030
+
+Undetected Outlier Num Ratio Stats (Mean, Median):
+    0.1042    0.1095
+    0.0488    0.0525
+    0.0333    0.0250
+    0.0157    0.0120
+    0.0107    0.0130
+    0.0093    0.0100
+
+Missrate In (Mean, Median):
+    0.0137    0.0053
+    0.0106    0.0072
+    0.0493    0.0304
+    0.0959    0.1007
+    0.1336    0.1563
+    0.1409    0.1892
