@@ -1,0 +1,5064 @@
+>> Hopkins
+================================================================================
+Dataset(1) : 1R2RC_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 3
+	number of total samples = 459
+	dimension of each sample = 58
+	number of outliers = 183
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 286/276 ;
+		 number of detected inliers/ true outliers = 173/183 ;
+		 number of undetected true inliers/ true inliers = 0/276;
+		 number of undetected true outliers/ true outliers = 10/183;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 2.132s
+		BuildAdjacency...Done, costing 0.010s
+		SpectralClustering...Done, costing 0.095s
+	missrate_in = 0.006993
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0055
+	err_ratio_out = 0.0021
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0578, where undetected_outlier_num_ratio = 0.0546
+	err_ratio_out = 0.0109
+
+================================================================================
+Dataset(2) : 1R2RCR_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 3
+	number of total samples = 482
+	dimension of each sample = 48
+	number of outliers = 192
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 297/290 ;
+		 number of detected inliers/ true outliers = 185/192 ;
+		 number of undetected true inliers/ true inliers = 1/290;
+		 number of undetected true outliers/ true outliers = 8/192;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 2.334s
+		BuildAdjacency...Done, costing 0.007s
+		SpectralClustering...Done, costing 0.086s
+	missrate_in = 0.006734
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0104
+	err_ratio_out = 0.0042
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0598, where undetected_outlier_num_ratio = 0.0417
+	err_ratio_out = 0.0188
+
+================================================================================
+Dataset(3) : 1R2RCR_g12_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 153
+	dimension of each sample = 48
+	number of outliers = 61
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 97/92 ;
+		 number of detected inliers/ true outliers = 56/61 ;
+		 number of undetected true inliers/ true inliers = 0/92;
+		 number of undetected true outliers/ true outliers = 5/61;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 0.583s
+		BuildAdjacency...Done, costing 0.001s
+		SpectralClustering...Done, costing 0.039s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0034
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.0820
+	err_ratio_out = 0.0302
+
+================================================================================
+Dataset(4) : 1R2RCR_g13_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 379
+	dimension of each sample = 48
+	number of outliers = 151
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 231/228 ;
+		 number of detected inliers/ true outliers = 148/151 ;
+		 number of undetected true inliers/ true inliers = 3/228;
+		 number of undetected true outliers/ true outliers = 6/151;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 1.634s
+		BuildAdjacency...Done, costing 0.003s
+		SpectralClustering...Done, costing 0.045s
+	missrate_in = 0.025974
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0066
+	err_ratio_out = 0.0309
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0069, where undetected_outlier_num_ratio = 0.0397
+	err_ratio_out = 0.0268
+
+================================================================================
+Dataset(5) : 1R2RCR_g23_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 432
+	dimension of each sample = 48
+	number of outliers = 172
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 263/260 ;
+		 number of detected inliers/ true outliers = 169/172 ;
+		 number of undetected true inliers/ true inliers = 2/260;
+		 number of undetected true outliers/ true outliers = 5/172;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 2.013s
+		BuildAdjacency...Done, costing 0.005s
+		SpectralClustering...Done, costing 0.054s
+	missrate_in = 0.0038023
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0009
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0240, where undetected_outlier_num_ratio = 0.0291
+	err_ratio_out = 0.0133
+
+================================================================================
+Dataset(6) : 1R2RCT_A_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 3
+	number of total samples = 421
+	dimension of each sample = 50
+	number of outliers = 168
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 257/253 ;
+		 number of detected inliers/ true outliers = 164/168 ;
+		 number of undetected true inliers/ true inliers = 0/253;
+		 number of undetected true outliers/ true outliers = 4/168;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 1.957s
+		BuildAdjacency...Done, costing 0.004s
+		SpectralClustering...Done, costing 0.057s
+	missrate_in = 0.0038911
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0060
+	err_ratio_out = 0.0071
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0061, where undetected_outlier_num_ratio = 0.0238
+	err_ratio_out = 0.0105
+
+================================================================================
+Dataset(7) : 1R2RCT_A_g12_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 194
+	dimension of each sample = 50
+	number of outliers = 77
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 117/117 ;
+		 number of detected inliers/ true outliers = 77/77 ;
+		 number of undetected true inliers/ true inliers = 0/117;
+		 number of undetected true outliers/ true outliers = 0/77;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 0.724s
+		BuildAdjacency...Done, costing 0.001s
+		SpectralClustering...Done, costing 0.038s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0130
+	err_ratio_out = 0.0484
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0130, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.0484
+
+================================================================================
+Dataset(8) : 1R2RCT_A_g13_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 298
+	dimension of each sample = 50
+	number of outliers = 119
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 181/179 ;
+		 number of detected inliers/ true outliers = 117/119 ;
+		 number of undetected true inliers/ true inliers = 2/179;
+		 number of undetected true outliers/ true outliers = 4/119;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 1.140s
+		BuildAdjacency...Done, costing 0.003s
+		SpectralClustering...Done, costing 0.034s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0079
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0087, where undetected_outlier_num_ratio = 0.0336
+	err_ratio_out = 0.0139
+
+================================================================================
+Dataset(9) : 1R2RCT_A_g23_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 350
+	dimension of each sample = 50
+	number of outliers = 140
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 211/210 ;
+		 number of detected inliers/ true outliers = 139/140 ;
+		 number of undetected true inliers/ true inliers = 2/210;
+		 number of undetected true outliers/ true outliers = 3/140;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 1.687s
+		BuildAdjacency...Done, costing 0.007s
+		SpectralClustering...Done, costing 0.053s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0071
+	err_ratio_out = 0.0072
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0073, where undetected_outlier_num_ratio = 0.0214
+	err_ratio_out = 0.0095
+
+================================================================================
+Dataset(10) : 1R2RCT_B_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 3
+	number of total samples = 451
+	dimension of each sample = 48
+	number of outliers = 180
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 270/271 ;
+		 number of detected inliers/ true outliers = 181/180 ;
+		 number of undetected true inliers/ true inliers = 4/271;
+		 number of undetected true outliers/ true outliers = 3/180;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 2.411s
+		BuildAdjacency...Done, costing 0.007s
+		SpectralClustering...Done, costing 0.069s
+	missrate_in = 0.0037037
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0222
+	err_ratio_out = 0.0031
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0169, where undetected_outlier_num_ratio = 0.0167
+	err_ratio_out = 0.0098
+
+================================================================================
+Dataset(11) : 1R2RCT_B_g12_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 185
+	dimension of each sample = 48
+	number of outliers = 74
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 119/111 ;
+		 number of detected inliers/ true outliers = 66/74 ;
+		 number of undetected true inliers/ true inliers = 0/111;
+		 number of undetected true outliers/ true outliers = 8/74;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 0.680s
+		BuildAdjacency...Done, costing 0.001s
+		SpectralClustering...Done, costing 0.040s
+	missrate_in = 0.0084034
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0041
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0909, where undetected_outlier_num_ratio = 0.1081
+	err_ratio_out = 0.0320
+
+================================================================================
+Dataset(12) : 1R2RCT_B_g13_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 326
+	dimension of each sample = 48
+	number of outliers = 130
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 203/196 ;
+		 number of detected inliers/ true outliers = 123/130 ;
+		 number of undetected true inliers/ true inliers = 2/196;
+		 number of undetected true outliers/ true outliers = 9/130;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 1.268s
+		BuildAdjacency...Done, costing 0.003s
+		SpectralClustering...Done, costing 0.041s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0154
+	err_ratio_out = 0.0068
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0661, where undetected_outlier_num_ratio = 0.0692
+	err_ratio_out = 0.0277
+
+================================================================================
+Dataset(13) : 1R2RCT_B_g23_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 391
+	dimension of each sample = 48
+	number of outliers = 156
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 233/235 ;
+		 number of detected inliers/ true outliers = 158/156 ;
+		 number of undetected true inliers/ true inliers = 3/235;
+		 number of undetected true outliers/ true outliers = 1/156;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 1.603s
+		BuildAdjacency...Done, costing 0.004s
+		SpectralClustering...Done, costing 0.047s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0128
+	err_ratio_out = 0.0029
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0194, where undetected_outlier_num_ratio = 0.0064
+	err_ratio_out = 0.0064
+
+================================================================================
+Dataset(14) : 1R2RC_g12_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 210
+	dimension of each sample = 58
+	number of outliers = 84
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 126/126 ;
+		 number of detected inliers/ true outliers = 84/84 ;
+		 number of undetected true inliers/ true inliers = 0/126;
+		 number of undetected true outliers/ true outliers = 0/84;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 0.792s
+		BuildAdjacency...Done, costing 0.002s
+		SpectralClustering...Done, costing 0.037s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0119
+	err_ratio_out = 0.0061
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0119, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.0062
+
+================================================================================
+Dataset(15) : 1R2RC_g13_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 338
+	dimension of each sample = 58
+	number of outliers = 135
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 215/203 ;
+		 number of detected inliers/ true outliers = 123/135 ;
+		 number of undetected true inliers/ true inliers = 1/203;
+		 number of undetected true outliers/ true outliers = 13/135;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 1.622s
+		BuildAdjacency...Done, costing 0.004s
+		SpectralClustering...Done, costing 0.053s
+	missrate_in = 0.018605
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0074
+	err_ratio_out = 0.0025
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0820, where undetected_outlier_num_ratio = 0.0963
+	err_ratio_out = 0.0208
+
+================================================================================
+Dataset(16) : 1R2RC_g23_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 370
+	dimension of each sample = 58
+	number of outliers = 148
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 233/222 ;
+		 number of detected inliers/ true outliers = 137/148 ;
+		 number of undetected true inliers/ true inliers = 0/222;
+		 number of undetected true outliers/ true outliers = 11/148;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 1.829s
+		BuildAdjacency...Done, costing 0.004s
+		SpectralClustering...Done, costing 0.046s
+	missrate_in = 0.0085837
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0010
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0073, where undetected_outlier_num_ratio = 0.0743
+	err_ratio_out = 0.0110
+
+================================================================================
+Dataset(17) : 1R2TCR_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 3
+	number of total samples = 556
+	dimension of each sample = 52
+	number of outliers = 222
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 327/334 ;
+		 number of detected inliers/ true outliers = 229/222 ;
+		 number of undetected true inliers/ true inliers = 15/334;
+		 number of undetected true outliers/ true outliers = 8/222;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 2.837s
+		BuildAdjacency...Done, costing 0.008s
+		SpectralClustering...Done, costing 0.069s
+	missrate_in = 0.0061162
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0045
+	err_ratio_out = 0.0025
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0093, where undetected_outlier_num_ratio = 0.0360
+	err_ratio_out = 0.0159
+
+================================================================================
+Dataset(18) : 1R2TCRT_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 3
+	number of total samples = 503
+	dimension of each sample = 82
+	number of outliers = 201
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 295/302 ;
+		 number of detected inliers/ true outliers = 208/201 ;
+		 number of undetected true inliers/ true inliers = 7/302;
+		 number of undetected true outliers/ true outliers = 0/201;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 2.556s
+		BuildAdjacency...Done, costing 0.004s
+		SpectralClustering...Done, costing 0.056s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0045
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.0051
+
+================================================================================
+Dataset(19) : 1R2TCRT_g12_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 199
+	dimension of each sample = 82
+	number of outliers = 79
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 120/120 ;
+		 number of detected inliers/ true outliers = 79/79 ;
+		 number of undetected true inliers/ true inliers = 1/120;
+		 number of undetected true outliers/ true outliers = 1/79;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 0.896s
+		BuildAdjacency...Done, costing 0.001s
+		SpectralClustering...Done, costing 0.036s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0034
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.0127
+	err_ratio_out = 0.0123
+
+================================================================================
+Dataset(20) : 1R2TCRT_g13_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 377
+	dimension of each sample = 82
+	number of outliers = 150
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 225/227 ;
+		 number of detected inliers/ true outliers = 152/150 ;
+		 number of undetected true inliers/ true inliers = 2/227;
+		 number of undetected true outliers/ true outliers = 0/150;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 1.876s
+		BuildAdjacency...Done, costing 0.003s
+		SpectralClustering...Done, costing 0.043s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0049
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.0055
+
+================================================================================
+Dataset(21) : 1R2TCRT_g23_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 430
+	dimension of each sample = 82
+	number of outliers = 172
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 251/258 ;
+		 number of detected inliers/ true outliers = 179/172 ;
+		 number of undetected true inliers/ true inliers = 7/258;
+		 number of undetected true outliers/ true outliers = 0/172;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 2.422s
+		BuildAdjacency...Done, costing 0.004s
+		SpectralClustering...Done, costing 0.053s
+	missrate_in = 0.0039841
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0039
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.0049
+
+================================================================================
+Dataset(22) : 1R2TCR_g12_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 219
+	dimension of each sample = 52
+	number of outliers = 87
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 142/132 ;
+		 number of detected inliers/ true outliers = 77/87 ;
+		 number of undetected true inliers/ true inliers = 0/132;
+		 number of undetected true outliers/ true outliers = 10/87;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 0.880s
+		BuildAdjacency...Done, costing 0.002s
+		SpectralClustering...Done, costing 0.045s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0016
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0130, where undetected_outlier_num_ratio = 0.1149
+	err_ratio_out = 0.0174
+
+================================================================================
+Dataset(23) : 1R2TCR_g13_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 411
+	dimension of each sample = 52
+	number of outliers = 164
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 242/247 ;
+		 number of detected inliers/ true outliers = 169/164 ;
+		 number of undetected true inliers/ true inliers = 12/247;
+		 number of undetected true outliers/ true outliers = 7/164;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 1.851s
+		BuildAdjacency...Done, costing 0.004s
+		SpectralClustering...Done, costing 0.058s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0061
+	err_ratio_out = 0.0479
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0127, where undetected_outlier_num_ratio = 0.0427
+	err_ratio_out = 0.0201
+
+================================================================================
+Dataset(24) : 1R2TCR_g23_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 482
+	dimension of each sample = 52
+	number of outliers = 192
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 279/290 ;
+		 number of detected inliers/ true outliers = 203/192 ;
+		 number of undetected true inliers/ true inliers = 11/290;
+		 number of undetected true outliers/ true outliers = 0/192;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 2.636s
+		BuildAdjacency...Done, costing 0.005s
+		SpectralClustering...Done, costing 0.050s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0391
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0104, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.0258
+
+================================================================================
+Dataset(25) : 1RT2RCR_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 3
+	number of total samples = 492
+	dimension of each sample = 58
+	number of outliers = 196
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 285/296 ;
+		 number of detected inliers/ true outliers = 207/196 ;
+		 number of undetected true inliers/ true inliers = 15/296;
+		 number of undetected true outliers/ true outliers = 4/196;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 2.429s
+		BuildAdjacency...Done, costing 0.005s
+		SpectralClustering...Done, costing 0.066s
+	missrate_in = 0.010526
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0051
+	err_ratio_out = 0.0050
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0052, where undetected_outlier_num_ratio = 0.0204
+	err_ratio_out = 0.0255
+
+================================================================================
+Dataset(26) : 1RT2RCRT_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 3
+	number of total samples = 430
+	dimension of each sample = 48
+	number of outliers = 172
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 256/258 ;
+		 number of detected inliers/ true outliers = 174/172 ;
+		 number of undetected true inliers/ true inliers = 4/258;
+		 number of undetected true outliers/ true outliers = 2/172;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 1.851s
+		BuildAdjacency...Done, costing 0.005s
+		SpectralClustering...Done, costing 0.065s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0332
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0059, where undetected_outlier_num_ratio = 0.0116
+	err_ratio_out = 0.0361
+
+================================================================================
+Dataset(27) : 1RT2RCRT_g12_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 189
+	dimension of each sample = 48
+	number of outliers = 75
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 114/114 ;
+		 number of detected inliers/ true outliers = 75/75 ;
+		 number of undetected true inliers/ true inliers = 0/114;
+		 number of undetected true outliers/ true outliers = 0/75;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 0.608s
+		BuildAdjacency...Done, costing 0.002s
+		SpectralClustering...Done, costing 0.036s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0395
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.0039
+
+================================================================================
+Dataset(28) : 1RT2RCRT_g13_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 341
+	dimension of each sample = 48
+	number of outliers = 136
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 204/205 ;
+		 number of detected inliers/ true outliers = 137/136 ;
+		 number of undetected true inliers/ true inliers = 4/205;
+		 number of undetected true outliers/ true outliers = 3/136;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 1.525s
+		BuildAdjacency...Done, costing 0.003s
+		SpectralClustering...Done, costing 0.041s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0374
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.0221
+	err_ratio_out = 0.0521
+
+================================================================================
+Dataset(29) : 1RT2RCRT_g23_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 330
+	dimension of each sample = 48
+	number of outliers = 132
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 198/198 ;
+		 number of detected inliers/ true outliers = 132/132 ;
+		 number of undetected true inliers/ true inliers = 1/198;
+		 number of undetected true outliers/ true outliers = 1/132;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 1.464s
+		BuildAdjacency...Done, costing 0.003s
+		SpectralClustering...Done, costing 0.040s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0076
+	err_ratio_out = 0.0105
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0382, where undetected_outlier_num_ratio = 0.0076
+	err_ratio_out = 0.0104
+
+================================================================================
+Dataset(30) : 1RT2RCR_g12_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 256
+	dimension of each sample = 58
+	number of outliers = 102
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 154/154 ;
+		 number of detected inliers/ true outliers = 102/102 ;
+		 number of undetected true inliers/ true inliers = 0/154;
+		 number of undetected true outliers/ true outliers = 0/102;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 1.041s
+		BuildAdjacency...Done, costing 0.002s
+		SpectralClustering...Done, costing 0.039s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0794
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.0789
+
+================================================================================
+Dataset(31) : 1RT2RCR_g13_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 378
+	dimension of each sample = 58
+	number of outliers = 151
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 228/227 ;
+		 number of detected inliers/ true outliers = 150/151 ;
+		 number of undetected true inliers/ true inliers = 3/227;
+		 number of undetected true outliers/ true outliers = 4/151;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 1.708s
+		BuildAdjacency...Done, costing 0.004s
+		SpectralClustering...Done, costing 0.044s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0052
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.0265
+	err_ratio_out = 0.0179
+
+================================================================================
+Dataset(32) : 1RT2RCR_g23_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 350
+	dimension of each sample = 58
+	number of outliers = 140
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 210/210 ;
+		 number of detected inliers/ true outliers = 140/140 ;
+		 number of undetected true inliers/ true inliers = 5/210;
+		 number of undetected true outliers/ true outliers = 5/140;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 1.574s
+		BuildAdjacency...Done, costing 0.003s
+		SpectralClustering...Done, costing 0.058s
+	missrate_in = 0.17619
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0028
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.3630, where undetected_outlier_num_ratio = 0.0357
+	err_ratio_out = 0.0277
+
+================================================================================
+Dataset(33) : 1RT2RTCRT_A_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 3
+	number of total samples = 328
+	dimension of each sample = 58
+	number of outliers = 131
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 195/197 ;
+		 number of detected inliers/ true outliers = 133/131 ;
+		 number of undetected true inliers/ true inliers = 4/197;
+		 number of undetected true outliers/ true outliers = 2/131;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 1.485s
+		BuildAdjacency...Done, costing 0.003s
+		SpectralClustering...Done, costing 0.052s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0474
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.0153
+	err_ratio_out = 0.0613
+
+================================================================================
+Dataset(34) : 1RT2RTCRT_A_g12_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 178
+	dimension of each sample = 58
+	number of outliers = 71
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 109/107 ;
+		 number of detected inliers/ true outliers = 69/71 ;
+		 number of undetected true inliers/ true inliers = 0/107;
+		 number of undetected true outliers/ true outliers = 2/71;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 0.673s
+		BuildAdjacency...Done, costing 0.002s
+		SpectralClustering...Done, costing 0.048s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0141
+	err_ratio_out = 0.0338
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0145, where undetected_outlier_num_ratio = 0.0282
+	err_ratio_out = 0.0432
+
+================================================================================
+Dataset(35) : 1RT2RTCRT_A_g13_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 257
+	dimension of each sample = 58
+	number of outliers = 102
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 155/155 ;
+		 number of detected inliers/ true outliers = 102/102 ;
+		 number of undetected true inliers/ true inliers = 3/155;
+		 number of undetected true outliers/ true outliers = 3/102;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 1.184s
+		BuildAdjacency...Done, costing 0.003s
+		SpectralClustering...Done, costing 0.046s
+	missrate_in = 0.012903
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0562
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.0294
+	err_ratio_out = 0.0324
+
+================================================================================
+Dataset(36) : 1RT2RTCRT_A_g23_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 221
+	dimension of each sample = 58
+	number of outliers = 88
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 131/133 ;
+		 number of detected inliers/ true outliers = 90/88 ;
+		 number of undetected true inliers/ true inliers = 2/133;
+		 number of undetected true outliers/ true outliers = 0/88;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 0.844s
+		BuildAdjacency...Done, costing 0.002s
+		SpectralClustering...Done, costing 0.043s
+	missrate_in = 0.022901
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0033
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.0050
+
+================================================================================
+Dataset(37) : 1RT2RTCRT_B_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 3
+	number of total samples = 395
+	dimension of each sample = 48
+	number of outliers = 158
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 230/237 ;
+		 number of detected inliers/ true outliers = 165/158 ;
+		 number of undetected true inliers/ true inliers = 7/237;
+		 number of undetected true outliers/ true outliers = 0/158;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 1.619s
+		BuildAdjacency...Done, costing 0.004s
+		SpectralClustering...Done, costing 0.065s
+	missrate_in = 0.1
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0063
+	err_ratio_out = 0.0209
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0759, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.0213
+
+================================================================================
+Dataset(38) : 1RT2RTCRT_B_g12_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 167
+	dimension of each sample = 48
+	number of outliers = 66
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 101/101 ;
+		 number of detected inliers/ true outliers = 66/66 ;
+		 number of undetected true inliers/ true inliers = 0/101;
+		 number of undetected true outliers/ true outliers = 0/66;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 0.562s
+		BuildAdjacency...Done, costing 0.001s
+		SpectralClustering...Done, costing 0.050s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0045
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.0050
+
+================================================================================
+Dataset(39) : 1RT2RTCRT_B_g13_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 321
+	dimension of each sample = 48
+	number of outliers = 128
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 195/193 ;
+		 number of detected inliers/ true outliers = 126/128 ;
+		 number of undetected true inliers/ true inliers = 4/193;
+		 number of undetected true outliers/ true outliers = 6/128;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 1.095s
+		BuildAdjacency...Done, costing 0.002s
+		SpectralClustering...Done, costing 0.034s
+	missrate_in = 0.015385
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0103
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.0469
+	err_ratio_out = 0.0374
+
+================================================================================
+Dataset(40) : 1RT2RTCRT_B_g23_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 302
+	dimension of each sample = 48
+	number of outliers = 120
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 182/182 ;
+		 number of detected inliers/ true outliers = 120/120 ;
+		 number of undetected true inliers/ true inliers = 3/182;
+		 number of undetected true outliers/ true outliers = 3/120;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 1.102s
+		BuildAdjacency...Done, costing 0.002s
+		SpectralClustering...Done, costing 0.048s
+	missrate_in = 0.12637
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0250
+	err_ratio_out = 0.0322
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.1538, where undetected_outlier_num_ratio = 0.0250
+	err_ratio_out = 0.0461
+
+================================================================================
+Dataset(41) : 1RT2TC_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 3
+	number of total samples = 309
+	dimension of each sample = 70
+	number of outliers = 123
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 185/186 ;
+		 number of detected inliers/ true outliers = 124/123 ;
+		 number of undetected true inliers/ true inliers = 2/186;
+		 number of undetected true outliers/ true outliers = 1/123;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 1.456s
+		BuildAdjacency...Done, costing 0.003s
+		SpectralClustering...Done, costing 0.050s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0163
+	err_ratio_out = 0.0633
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0164, where undetected_outlier_num_ratio = 0.0081
+	err_ratio_out = 0.0638
+
+================================================================================
+Dataset(42) : 1RT2TCRT_A_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 3
+	number of total samples = 304
+	dimension of each sample = 58
+	number of outliers = 121
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 167/183 ;
+		 number of detected inliers/ true outliers = 137/121 ;
+		 number of undetected true inliers/ true inliers = 17/183;
+		 number of undetected true outliers/ true outliers = 1/121;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 1.197s
+		BuildAdjacency...Done, costing 0.002s
+		SpectralClustering...Done, costing 0.047s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0104
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0083, where undetected_outlier_num_ratio = 0.0083
+	err_ratio_out = 0.0186
+
+================================================================================
+Dataset(43) : 1RT2TCRT_A_g12_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 165
+	dimension of each sample = 58
+	number of outliers = 66
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 101/99 ;
+		 number of detected inliers/ true outliers = 64/66 ;
+		 number of undetected true inliers/ true inliers = 0/99;
+		 number of undetected true outliers/ true outliers = 2/66;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 0.586s
+		BuildAdjacency...Done, costing 0.001s
+		SpectralClustering...Done, costing 0.036s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0207
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.0303
+	err_ratio_out = 0.0295
+
+================================================================================
+Dataset(44) : 1RT2TCRT_A_g13_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 219
+	dimension of each sample = 58
+	number of outliers = 87
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 117/132 ;
+		 number of detected inliers/ true outliers = 102/87 ;
+		 number of undetected true inliers/ true inliers = 16/132;
+		 number of undetected true outliers/ true outliers = 1/87;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 0.716s
+		BuildAdjacency...Done, costing 0.001s
+		SpectralClustering...Done, costing 0.036s
+	missrate_in = 0.11966
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0038
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0116, where undetected_outlier_num_ratio = 0.0115
+	err_ratio_out = 0.0209
+
+================================================================================
+Dataset(45) : 1RT2TCRT_A_g23_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 224
+	dimension of each sample = 58
+	number of outliers = 89
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 126/135 ;
+		 number of detected inliers/ true outliers = 98/89 ;
+		 number of undetected true inliers/ true inliers = 11/135;
+		 number of undetected true outliers/ true outliers = 2/89;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 0.786s
+		BuildAdjacency...Done, costing 0.002s
+		SpectralClustering...Done, costing 0.036s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0033
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.0225
+	err_ratio_out = 0.0288
+
+================================================================================
+Dataset(46) : 1RT2TCRT_B_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 3
+	number of total samples = 336
+	dimension of each sample = 58
+	number of outliers = 134
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 203/202 ;
+		 number of detected inliers/ true outliers = 133/134 ;
+		 number of undetected true inliers/ true inliers = 3/202;
+		 number of undetected true outliers/ true outliers = 4/134;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 1.528s
+		BuildAdjacency...Done, costing 0.003s
+		SpectralClustering...Done, costing 0.052s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0299
+	err_ratio_out = 0.0141
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0231, where undetected_outlier_num_ratio = 0.0299
+	err_ratio_out = 0.0230
+
+================================================================================
+Dataset(47) : 1RT2TCRT_B_g12_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 145
+	dimension of each sample = 58
+	number of outliers = 58
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 89/87 ;
+		 number of detected inliers/ true outliers = 56/58 ;
+		 number of undetected true inliers/ true inliers = 0/87;
+		 number of undetected true outliers/ true outliers = 2/58;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 0.530s
+		BuildAdjacency...Done, costing 0.001s
+		SpectralClustering...Done, costing 0.034s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0171
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.0345
+	err_ratio_out = 0.0272
+
+================================================================================
+Dataset(48) : 1RT2TCRT_B_g13_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 251
+	dimension of each sample = 58
+	number of outliers = 100
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 148/151 ;
+		 number of detected inliers/ true outliers = 103/100 ;
+		 number of undetected true inliers/ true inliers = 4/151;
+		 number of undetected true outliers/ true outliers = 1/100;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 1.026s
+		BuildAdjacency...Done, costing 0.003s
+		SpectralClustering...Done, costing 0.041s
+	missrate_in = 0.0067568
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0030
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.0100
+	err_ratio_out = 0.0141
+
+================================================================================
+Dataset(49) : 1RT2TCRT_B_g23_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 276
+	dimension of each sample = 58
+	number of outliers = 110
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 168/166 ;
+		 number of detected inliers/ true outliers = 108/110 ;
+		 number of undetected true inliers/ true inliers = 2/166;
+		 number of undetected true outliers/ true outliers = 4/110;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 1.297s
+		BuildAdjacency...Done, costing 0.003s
+		SpectralClustering...Done, costing 0.111s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0182
+	err_ratio_out = 0.0086
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.0364
+	err_ratio_out = 0.0241
+
+================================================================================
+Dataset(50) : 1RT2TC_g12_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 199
+	dimension of each sample = 70
+	number of outliers = 79
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 120/120 ;
+		 number of detected inliers/ true outliers = 79/79 ;
+		 number of undetected true inliers/ true inliers = 0/120;
+		 number of undetected true outliers/ true outliers = 0/79;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 0.910s
+		BuildAdjacency...Done, costing 0.002s
+		SpectralClustering...Done, costing 0.036s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0253
+	err_ratio_out = 0.1597
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0253, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.1596
+
+================================================================================
+Dataset(51) : 1RT2TC_g13_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 212
+	dimension of each sample = 70
+	number of outliers = 84
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 126/128 ;
+		 number of detected inliers/ true outliers = 86/84 ;
+		 number of undetected true inliers/ true inliers = 3/128;
+		 number of undetected true outliers/ true outliers = 1/84;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 1.034s
+		BuildAdjacency...Done, costing 0.001s
+		SpectralClustering...Done, costing 0.042s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0852
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.0119
+	err_ratio_out = 0.0865
+
+================================================================================
+Dataset(52) : 1RT2TC_g23_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 207
+	dimension of each sample = 70
+	number of outliers = 82
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 127/125 ;
+		 number of detected inliers/ true outliers = 80/82 ;
+		 number of undetected true inliers/ true inliers = 1/125;
+		 number of undetected true outliers/ true outliers = 3/82;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 0.968s
+		BuildAdjacency...Done, costing 0.002s
+		SpectralClustering...Done, costing 0.036s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0244
+	err_ratio_out = 0.0021
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0127, where undetected_outlier_num_ratio = 0.0366
+	err_ratio_out = 0.0379
+
+================================================================================
+Dataset(53) : 2R3RTC_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 3
+	number of total samples = 499
+	dimension of each sample = 58
+	number of outliers = 199
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 289/300 ;
+		 number of detected inliers/ true outliers = 210/199 ;
+		 number of undetected true inliers/ true inliers = 20/300;
+		 number of undetected true outliers/ true outliers = 9/199;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 2.936s
+		BuildAdjacency...Done, costing 0.005s
+		SpectralClustering...Done, costing 0.066s
+	missrate_in = 0.27682
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0079
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.4316, where undetected_outlier_num_ratio = 0.0452
+	err_ratio_out = 0.0202
+
+================================================================================
+Dataset(54) : 2R3RTCRT_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 3
+	number of total samples = 411
+	dimension of each sample = 60
+	number of outliers = 164
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 257/247 ;
+		 number of detected inliers/ true outliers = 154/164 ;
+		 number of undetected true inliers/ true inliers = 0/247;
+		 number of undetected true outliers/ true outliers = 10/164;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 2.020s
+		BuildAdjacency...Done, costing 0.006s
+		SpectralClustering...Done, costing 0.091s
+	missrate_in = 0.11673
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0122
+	err_ratio_out = 0.0113
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.3831, where undetected_outlier_num_ratio = 0.0610
+	err_ratio_out = 0.0277
+
+================================================================================
+Dataset(55) : 2R3RTCRT_g12_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 218
+	dimension of each sample = 60
+	number of outliers = 87
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 136/131 ;
+		 number of detected inliers/ true outliers = 82/87 ;
+		 number of undetected true inliers/ true inliers = 0/131;
+		 number of undetected true outliers/ true outliers = 5/87;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 0.860s
+		BuildAdjacency...Done, costing 0.002s
+		SpectralClustering...Done, costing 0.038s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0122
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.0575
+	err_ratio_out = 0.0336
+
+================================================================================
+Dataset(56) : 2R3RTCRT_g13_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 268
+	dimension of each sample = 60
+	number of outliers = 107
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 166/161 ;
+		 number of detected inliers/ true outliers = 102/107 ;
+		 number of undetected true inliers/ true inliers = 3/161;
+		 number of undetected true outliers/ true outliers = 8/107;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 1.244s
+		BuildAdjacency...Done, costing 0.002s
+		SpectralClustering...Done, costing 0.059s
+	missrate_in = 0.072289
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0037
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.3232, where undetected_outlier_num_ratio = 0.0748
+	err_ratio_out = 0.0281
+
+================================================================================
+Dataset(57) : 2R3RTCRT_g23_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 336
+	dimension of each sample = 60
+	number of outliers = 134
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 210/202 ;
+		 number of detected inliers/ true outliers = 126/134 ;
+		 number of undetected true inliers/ true inliers = 0/202;
+		 number of undetected true outliers/ true outliers = 8/134;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 1.588s
+		BuildAdjacency...Done, costing 0.003s
+		SpectralClustering...Done, costing 0.048s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0103
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.0597
+	err_ratio_out = 0.0285
+
+================================================================================
+Dataset(58) : 2R3RTC_g12_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 256
+	dimension of each sample = 58
+	number of outliers = 102
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 157/154 ;
+		 number of detected inliers/ true outliers = 99/102 ;
+		 number of undetected true inliers/ true inliers = 0/154;
+		 number of undetected true outliers/ true outliers = 3/102;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 1.270s
+		BuildAdjacency...Done, costing 0.004s
+		SpectralClustering...Done, costing 0.058s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0098
+	err_ratio_out = 0.0174
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.0294
+	err_ratio_out = 0.0293
+
+================================================================================
+Dataset(59) : 2R3RTC_g13_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 331
+	dimension of each sample = 58
+	number of outliers = 132
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 207/199 ;
+		 number of detected inliers/ true outliers = 124/132 ;
+		 number of undetected true inliers/ true inliers = 0/199;
+		 number of undetected true outliers/ true outliers = 8/132;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 1.674s
+		BuildAdjacency...Done, costing 0.003s
+		SpectralClustering...Done, costing 0.049s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0008
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.1855, where undetected_outlier_num_ratio = 0.0606
+	err_ratio_out = 0.0118
+
+================================================================================
+Dataset(60) : 2R3RTC_g23_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 411
+	dimension of each sample = 58
+	number of outliers = 164
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 241/247 ;
+		 number of detected inliers/ true outliers = 170/164 ;
+		 number of undetected true inliers/ true inliers = 21/247;
+		 number of undetected true outliers/ true outliers = 15/164;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 2.000s
+		BuildAdjacency...Done, costing 0.004s
+		SpectralClustering...Done, costing 0.051s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0106
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.0915
+	err_ratio_out = 0.0207
+
+================================================================================
+Dataset(61) : 2RT3RC_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 3
+	number of total samples = 551
+	dimension of each sample = 58
+	number of outliers = 220
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 337/331 ;
+		 number of detected inliers/ true outliers = 214/220 ;
+		 number of undetected true inliers/ true inliers = 4/331;
+		 number of undetected true outliers/ true outliers = 10/220;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 4.638s
+		BuildAdjacency...Done, costing 0.006s
+		SpectralClustering...Done, costing 0.093s
+	missrate_in = 0.032641
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0136
+	err_ratio_out = 0.0015
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0238, where undetected_outlier_num_ratio = 0.0455
+	err_ratio_out = 0.0168
+
+================================================================================
+Dataset(62) : 2RT3RCR_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 3
+	number of total samples = 511
+	dimension of each sample = 58
+	number of outliers = 204
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 301/307 ;
+		 number of detected inliers/ true outliers = 210/204 ;
+		 number of undetected true inliers/ true inliers = 6/307;
+		 number of undetected true outliers/ true outliers = 0/204;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 2.861s
+		BuildAdjacency...Done, costing 0.006s
+		SpectralClustering...Done, costing 0.077s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0588
+	err_ratio_out = 0.0076
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0245, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.0183
+
+================================================================================
+Dataset(63) : 2RT3RCR_g12_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 236
+	dimension of each sample = 58
+	number of outliers = 94
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 143/142 ;
+		 number of detected inliers/ true outliers = 93/94 ;
+		 number of undetected true inliers/ true inliers = 0/142;
+		 number of undetected true outliers/ true outliers = 1/94;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 1.054s
+		BuildAdjacency...Done, costing 0.002s
+		SpectralClustering...Done, costing 0.040s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0022
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.0106
+	err_ratio_out = 0.0196
+
+================================================================================
+Dataset(64) : 2RT3RCR_g13_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 375
+	dimension of each sample = 58
+	number of outliers = 150
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 223/225 ;
+		 number of detected inliers/ true outliers = 152/150 ;
+		 number of undetected true inliers/ true inliers = 2/225;
+		 number of undetected true outliers/ true outliers = 0/150;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 1.663s
+		BuildAdjacency...Done, costing 0.003s
+		SpectralClustering...Done, costing 0.042s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0045
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.0025
+
+================================================================================
+Dataset(65) : 2RT3RCR_g23_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 411
+	dimension of each sample = 58
+	number of outliers = 164
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 241/247 ;
+		 number of detected inliers/ true outliers = 170/164 ;
+		 number of undetected true inliers/ true inliers = 7/247;
+		 number of undetected true outliers/ true outliers = 1/164;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 1.969s
+		BuildAdjacency...Done, costing 0.004s
+		SpectralClustering...Done, costing 0.059s
+	missrate_in = 0.087137
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0976
+	err_ratio_out = 0.0040
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.1350, where undetected_outlier_num_ratio = 0.0061
+	err_ratio_out = 0.0116
+
+================================================================================
+Dataset(66) : 2RT3RCT_A_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 3
+	number of total samples = 351
+	dimension of each sample = 58
+	number of outliers = 140
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 209/211 ;
+		 number of detected inliers/ true outliers = 142/140 ;
+		 number of undetected true inliers/ true inliers = 2/211;
+		 number of undetected true outliers/ true outliers = 0/140;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 1.704s
+		BuildAdjacency...Done, costing 0.004s
+		SpectralClustering...Done, costing 0.074s
+	missrate_in = 0.028708
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0143
+	err_ratio_out = 0.0572
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0071, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.0571
+
+================================================================================
+Dataset(67) : 2RT3RCT_A_g12_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 181
+	dimension of each sample = 58
+	number of outliers = 72
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 109/109 ;
+		 number of detected inliers/ true outliers = 72/72 ;
+		 number of undetected true inliers/ true inliers = 0/109;
+		 number of undetected true outliers/ true outliers = 0/72;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 0.809s
+		BuildAdjacency...Done, costing 0.001s
+		SpectralClustering...Done, costing 0.036s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0026
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.0031
+
+================================================================================
+Dataset(68) : 2RT3RCT_A_g13_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 225
+	dimension of each sample = 58
+	number of outliers = 90
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 135/135 ;
+		 number of detected inliers/ true outliers = 90/90 ;
+		 number of undetected true inliers/ true inliers = 0/135;
+		 number of undetected true outliers/ true outliers = 0/90;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 0.907s
+		BuildAdjacency...Done, costing 0.002s
+		SpectralClustering...Done, costing 0.038s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0044
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0111, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.0062
+
+================================================================================
+Dataset(69) : 2RT3RCT_A_g23_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 296
+	dimension of each sample = 58
+	number of outliers = 118
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 176/178 ;
+		 number of detected inliers/ true outliers = 120/118 ;
+		 number of undetected true inliers/ true inliers = 2/178;
+		 number of undetected true outliers/ true outliers = 0/118;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 1.562s
+		BuildAdjacency...Done, costing 0.003s
+		SpectralClustering...Done, costing 0.047s
+	missrate_in = 0.034091
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0025
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0424, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.0026
+
+================================================================================
+Dataset(70) : 2RT3RCT_B_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 3
+	number of total samples = 471
+	dimension of each sample = 58
+	number of outliers = 188
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 275/283 ;
+		 number of detected inliers/ true outliers = 196/188 ;
+		 number of undetected true inliers/ true inliers = 12/283;
+		 number of undetected true outliers/ true outliers = 4/188;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 2.438s
+		BuildAdjacency...Done, costing 0.005s
+		SpectralClustering...Done, costing 0.059s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0053
+	err_ratio_out = 0.0014
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0272, where undetected_outlier_num_ratio = 0.0213
+	err_ratio_out = 0.0189
+
+================================================================================
+Dataset(71) : 2RT3RCT_B_g12_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 176
+	dimension of each sample = 58
+	number of outliers = 70
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 107/106 ;
+		 number of detected inliers/ true outliers = 69/70 ;
+		 number of undetected true inliers/ true inliers = 0/106;
+		 number of undetected true outliers/ true outliers = 1/70;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 0.711s
+		BuildAdjacency...Done, costing 0.001s
+		SpectralClustering...Done, costing 0.040s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0020
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0145, where undetected_outlier_num_ratio = 0.0143
+	err_ratio_out = 0.0204
+
+================================================================================
+Dataset(72) : 2RT3RCT_B_g13_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 344
+	dimension of each sample = 58
+	number of outliers = 137
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 197/207 ;
+		 number of detected inliers/ true outliers = 147/137 ;
+		 number of undetected true inliers/ true inliers = 11/207;
+		 number of undetected true outliers/ true outliers = 1/137;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 1.706s
+		BuildAdjacency...Done, costing 0.003s
+		SpectralClustering...Done, costing 0.054s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0073
+	err_ratio_out = 0.0103
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.0073
+	err_ratio_out = 0.0436
+
+================================================================================
+Dataset(73) : 2RT3RCT_B_g23_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 422
+	dimension of each sample = 58
+	number of outliers = 168
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 242/254 ;
+		 number of detected inliers/ true outliers = 180/168 ;
+		 number of undetected true inliers/ true inliers = 13/254;
+		 number of undetected true outliers/ true outliers = 1/168;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 2.034s
+		BuildAdjacency...Done, costing 0.005s
+		SpectralClustering...Done, costing 0.072s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0014
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0419, where undetected_outlier_num_ratio = 0.0060
+	err_ratio_out = 0.0135
+
+================================================================================
+Dataset(74) : 2RT3RC_g12_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 221
+	dimension of each sample = 58
+	number of outliers = 88
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 140/133 ;
+		 number of detected inliers/ true outliers = 81/88 ;
+		 number of undetected true inliers/ true inliers = 0/133;
+		 number of undetected true outliers/ true outliers = 7/88;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 0.893s
+		BuildAdjacency...Done, costing 0.002s
+		SpectralClustering...Done, costing 0.038s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0029
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.0795
+	err_ratio_out = 0.0197
+
+================================================================================
+Dataset(75) : 2RT3RC_g13_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 409
+	dimension of each sample = 58
+	number of outliers = 163
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 248/246 ;
+		 number of detected inliers/ true outliers = 161/163 ;
+		 number of undetected true inliers/ true inliers = 4/246;
+		 number of undetected true outliers/ true outliers = 6/163;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 2.154s
+		BuildAdjacency...Done, costing 0.004s
+		SpectralClustering...Done, costing 0.052s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0061
+	err_ratio_out = 0.0057
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0255, where undetected_outlier_num_ratio = 0.0368
+	err_ratio_out = 0.0149
+
+================================================================================
+Dataset(76) : 2RT3RC_g23_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 472
+	dimension of each sample = 58
+	number of outliers = 188
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 287/284 ;
+		 number of detected inliers/ true outliers = 185/188 ;
+		 number of undetected true inliers/ true inliers = 4/284;
+		 number of undetected true outliers/ true outliers = 7/188;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 2.794s
+		BuildAdjacency...Done, costing 0.005s
+		SpectralClustering...Done, costing 0.062s
+	missrate_in = 0.027875
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0319
+	err_ratio_out = 0.0127
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.0372
+	err_ratio_out = 0.0118
+
+================================================================================
+Dataset(77) : 2RT3RTCRT_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 3
+	number of total samples = 357
+	dimension of each sample = 46
+	number of outliers = 142
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 217/215 ;
+		 number of detected inliers/ true outliers = 140/142 ;
+		 number of undetected true inliers/ true inliers = 1/215;
+		 number of undetected true outliers/ true outliers = 3/142;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 1.688s
+		BuildAdjacency...Done, costing 0.003s
+		SpectralClustering...Done, costing 0.053s
+	missrate_in = 0.0046083
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0146
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0144, where undetected_outlier_num_ratio = 0.0211
+	err_ratio_out = 0.0281
+
+================================================================================
+Dataset(78) : 2RT3RTCRT_g12_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 174
+	dimension of each sample = 46
+	number of outliers = 69
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 110/105 ;
+		 number of detected inliers/ true outliers = 64/69 ;
+		 number of undetected true inliers/ true inliers = 0/105;
+		 number of undetected true outliers/ true outliers = 5/69;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 0.706s
+		BuildAdjacency...Done, costing 0.001s
+		SpectralClustering...Done, costing 0.043s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0076
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0156, where undetected_outlier_num_ratio = 0.0725
+	err_ratio_out = 0.0461
+
+================================================================================
+Dataset(79) : 2RT3RTCRT_g13_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 255
+	dimension of each sample = 46
+	number of outliers = 102
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 152/153 ;
+		 number of detected inliers/ true outliers = 103/102 ;
+		 number of undetected true inliers/ true inliers = 1/153;
+		 number of undetected true outliers/ true outliers = 0/102;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 0.938s
+		BuildAdjacency...Done, costing 0.003s
+		SpectralClustering...Done, costing 0.036s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0098
+	err_ratio_out = 0.1549
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0098, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.1536
+
+================================================================================
+Dataset(80) : 2RT3RTCRT_g23_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 285
+	dimension of each sample = 46
+	number of outliers = 114
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 173/171 ;
+		 number of detected inliers/ true outliers = 112/114 ;
+		 number of undetected true inliers/ true inliers = 0/171;
+		 number of undetected true outliers/ true outliers = 2/114;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 1.160s
+		BuildAdjacency...Done, costing 0.002s
+		SpectralClustering...Done, costing 0.040s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0072
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.0175
+	err_ratio_out = 0.0156
+
+================================================================================
+Dataset(81) : 2T3RCR_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 3
+	number of total samples = 538
+	dimension of each sample = 52
+	number of outliers = 215
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 310/323 ;
+		 number of detected inliers/ true outliers = 228/215 ;
+		 number of undetected true inliers/ true inliers = 13/323;
+		 number of undetected true outliers/ true outliers = 0/215;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 2.764s
+		BuildAdjacency...Done, costing 0.006s
+		SpectralClustering...Done, costing 0.083s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0093
+	err_ratio_out = 0.0115
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0140, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.0114
+
+================================================================================
+Dataset(82) : 2T3RCRT_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 3
+	number of total samples = 543
+	dimension of each sample = 58
+	number of outliers = 217
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 306/326 ;
+		 number of detected inliers/ true outliers = 237/217 ;
+		 number of undetected true inliers/ true inliers = 20/326;
+		 number of undetected true outliers/ true outliers = 0/217;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 3.028s
+		BuildAdjacency...Done, costing 0.007s
+		SpectralClustering...Done, costing 0.101s
+	missrate_in = 0.33007
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0553
+	err_ratio_out = 0.0046
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.4101, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.0047
+
+================================================================================
+Dataset(83) : 2T3RCRTP_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 3
+	number of total samples = 491
+	dimension of each sample = 78
+	number of outliers = 196
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 288/295 ;
+		 number of detected inliers/ true outliers = 203/196 ;
+		 number of undetected true inliers/ true inliers = 8/295;
+		 number of undetected true outliers/ true outliers = 1/196;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 3.001s
+		BuildAdjacency...Done, costing 0.005s
+		SpectralClustering...Done, costing 0.072s
+	missrate_in = 0.010417
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0816
+	err_ratio_out = 0.0087
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.1077, where undetected_outlier_num_ratio = 0.0051
+	err_ratio_out = 0.0112
+
+================================================================================
+Dataset(84) : 2T3RCRTP_g12_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 215
+	dimension of each sample = 78
+	number of outliers = 86
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 124/129 ;
+		 number of detected inliers/ true outliers = 91/86 ;
+		 number of undetected true inliers/ true inliers = 5/129;
+		 number of undetected true outliers/ true outliers = 0/86;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 1.009s
+		BuildAdjacency...Done, costing 0.002s
+		SpectralClustering...Done, costing 0.048s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0057
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.0061
+
+================================================================================
+Dataset(85) : 2T3RCRTP_g13_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 341
+	dimension of each sample = 78
+	number of outliers = 136
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 205/205 ;
+		 number of detected inliers/ true outliers = 136/136 ;
+		 number of undetected true inliers/ true inliers = 2/205;
+		 number of undetected true outliers/ true outliers = 2/136;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 2.043s
+		BuildAdjacency...Done, costing 0.004s
+		SpectralClustering...Done, costing 0.084s
+	missrate_in = 0.38537
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0147
+	err_ratio_out = 0.0103
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.4552, where undetected_outlier_num_ratio = 0.0147
+	err_ratio_out = 0.0191
+
+================================================================================
+Dataset(86) : 2T3RCRTP_g23_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 426
+	dimension of each sample = 78
+	number of outliers = 170
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 255/256 ;
+		 number of detected inliers/ true outliers = 171/170 ;
+		 number of undetected true inliers/ true inliers = 1/256;
+		 number of undetected true outliers/ true outliers = 0/170;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 2.453s
+		BuildAdjacency...Done, costing 0.005s
+		SpectralClustering...Done, costing 0.065s
+	missrate_in = 0.082353
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0765
+	err_ratio_out = 0.0086
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.1588, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.0083
+
+================================================================================
+Dataset(87) : 2T3RCRT_g12_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 175
+	dimension of each sample = 58
+	number of outliers = 70
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 105/105 ;
+		 number of detected inliers/ true outliers = 70/70 ;
+		 number of undetected true inliers/ true inliers = 0/105;
+		 number of undetected true outliers/ true outliers = 0/70;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 0.803s
+		BuildAdjacency...Done, costing 0.001s
+		SpectralClustering...Done, costing 0.037s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0027
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.0032
+
+================================================================================
+Dataset(88) : 2T3RCRT_g13_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 449
+	dimension of each sample = 58
+	number of outliers = 179
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 249/270 ;
+		 number of detected inliers/ true outliers = 200/179 ;
+		 number of undetected true inliers/ true inliers = 21/270;
+		 number of undetected true outliers/ true outliers = 0/179;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 2.216s
+		BuildAdjacency...Done, costing 0.006s
+		SpectralClustering...Done, costing 0.067s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0447
+	err_ratio_out = 0.0160
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0391, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.0160
+
+================================================================================
+Dataset(89) : 2T3RCRT_g23_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 462
+	dimension of each sample = 58
+	number of outliers = 184
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 270/278 ;
+		 number of detected inliers/ true outliers = 192/184 ;
+		 number of undetected true inliers/ true inliers = 8/278;
+		 number of undetected true outliers/ true outliers = 0/184;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 2.364s
+		BuildAdjacency...Done, costing 0.005s
+		SpectralClustering...Done, costing 0.081s
+	missrate_in = 0.12222
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0489
+	err_ratio_out = 0.0206
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.1957, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.0210
+
+================================================================================
+Dataset(90) : 2T3RCR_g12_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 187
+	dimension of each sample = 52
+	number of outliers = 74
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 113/113 ;
+		 number of detected inliers/ true outliers = 74/74 ;
+		 number of undetected true inliers/ true inliers = 0/113;
+		 number of undetected true outliers/ true outliers = 0/74;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 0.704s
+		BuildAdjacency...Done, costing 0.001s
+		SpectralClustering...Done, costing 0.038s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0270
+	err_ratio_out = 0.0254
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0270, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.0253
+
+================================================================================
+Dataset(91) : 2T3RCR_g13_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 423
+	dimension of each sample = 52
+	number of outliers = 169
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 240/254 ;
+		 number of detected inliers/ true outliers = 183/169 ;
+		 number of undetected true inliers/ true inliers = 14/254;
+		 number of undetected true outliers/ true outliers = 0/169;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 1.967s
+		BuildAdjacency...Done, costing 0.003s
+		SpectralClustering...Done, costing 0.061s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0017
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.0017
+
+================================================================================
+Dataset(92) : 2T3RCR_g23_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 466
+	dimension of each sample = 52
+	number of outliers = 186
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 267/280 ;
+		 number of detected inliers/ true outliers = 199/186 ;
+		 number of undetected true inliers/ true inliers = 13/280;
+		 number of undetected true outliers/ true outliers = 0/186;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 2.751s
+		BuildAdjacency...Done, costing 0.007s
+		SpectralClustering...Done, costing 0.056s
+	missrate_in = 0.0037453
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0054
+	err_ratio_out = 0.0503
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.0407
+
+================================================================================
+Dataset(93) : 2T3RCTP_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 3
+	number of total samples = 470
+	dimension of each sample = 48
+	number of outliers = 188
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 280/282 ;
+		 number of detected inliers/ true outliers = 190/188 ;
+		 number of undetected true inliers/ true inliers = 6/282;
+		 number of undetected true outliers/ true outliers = 4/188;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 2.197s
+		BuildAdjacency...Done, costing 0.005s
+		SpectralClustering...Done, costing 0.061s
+	missrate_in = 0.0035714
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0053
+	err_ratio_out = 0.0187
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0054, where undetected_outlier_num_ratio = 0.0213
+	err_ratio_out = 0.0227
+
+================================================================================
+Dataset(94) : 2T3RCTP_g12_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 261
+	dimension of each sample = 48
+	number of outliers = 104
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 157/157 ;
+		 number of detected inliers/ true outliers = 104/104 ;
+		 number of undetected true inliers/ true inliers = 0/157;
+		 number of undetected true outliers/ true outliers = 0/104;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 1.174s
+		BuildAdjacency...Done, costing 0.002s
+		SpectralClustering...Done, costing 0.041s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0240
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.0242
+
+================================================================================
+Dataset(95) : 2T3RCTP_g13_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 319
+	dimension of each sample = 48
+	number of outliers = 127
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 195/192 ;
+		 number of detected inliers/ true outliers = 124/127 ;
+		 number of undetected true inliers/ true inliers = 7/192;
+		 number of undetected true outliers/ true outliers = 10/127;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 1.751s
+		BuildAdjacency...Done, costing 0.003s
+		SpectralClustering...Done, costing 0.046s
+	missrate_in = 0.0051282
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0079
+	err_ratio_out = 0.0105
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.0787
+	err_ratio_out = 0.0303
+
+================================================================================
+Dataset(96) : 2T3RCTP_g23_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 360
+	dimension of each sample = 48
+	number of outliers = 144
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 214/216 ;
+		 number of detected inliers/ true outliers = 146/144 ;
+		 number of undetected true inliers/ true inliers = 7/216;
+		 number of undetected true outliers/ true outliers = 5/144;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 1.780s
+		BuildAdjacency...Done, costing 0.003s
+		SpectralClustering...Done, costing 0.049s
+	missrate_in = 0.0046729
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0069
+	err_ratio_out = 0.0437
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0072, where undetected_outlier_num_ratio = 0.0347
+	err_ratio_out = 0.0471
+
+================================================================================
+Dataset(97) : 2T3RTCR_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 3
+	number of total samples = 536
+	dimension of each sample = 50
+	number of outliers = 214
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 308/322 ;
+		 number of detected inliers/ true outliers = 228/214 ;
+		 number of undetected true inliers/ true inliers = 14/322;
+		 number of undetected true outliers/ true outliers = 0/214;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 3.297s
+		BuildAdjacency...Done, costing 0.007s
+		SpectralClustering...Done, costing 0.073s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0048
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.0049
+
+================================================================================
+Dataset(98) : 2T3RTCR_g12_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 320
+	dimension of each sample = 50
+	number of outliers = 128
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 193/192 ;
+		 number of detected inliers/ true outliers = 127/128 ;
+		 number of undetected true inliers/ true inliers = 0/192;
+		 number of undetected true outliers/ true outliers = 1/128;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 1.559s
+		BuildAdjacency...Done, costing 0.003s
+		SpectralClustering...Done, costing 0.043s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0078
+	err_ratio_out = 0.0042
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0079, where undetected_outlier_num_ratio = 0.0078
+	err_ratio_out = 0.0074
+
+================================================================================
+Dataset(99) : 2T3RTCR_g13_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 355
+	dimension of each sample = 50
+	number of outliers = 142
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 204/213 ;
+		 number of detected inliers/ true outliers = 151/142 ;
+		 number of undetected true inliers/ true inliers = 9/213;
+		 number of undetected true outliers/ true outliers = 0/142;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 1.706s
+		BuildAdjacency...Done, costing 0.003s
+		SpectralClustering...Done, costing 0.057s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0141
+	err_ratio_out = 0.0580
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0141, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.0570
+
+================================================================================
+Dataset(100) : 2T3RTCR_g23_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 397
+	dimension of each sample = 50
+	number of outliers = 158
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 237/239 ;
+		 number of detected inliers/ true outliers = 160/158 ;
+		 number of undetected true inliers/ true inliers = 2/239;
+		 number of undetected true outliers/ true outliers = 0/158;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 1.879s
+		BuildAdjacency...Done, costing 0.003s
+		SpectralClustering...Done, costing 0.047s
+	missrate_in = 0.0042194
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0061
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.0062
+
+================================================================================
+Dataset(101) : arm_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 77
+	dimension of each sample = 60
+	number of outliers = 30
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 47/47 ;
+		 number of detected inliers/ true outliers = 30/30 ;
+		 number of undetected true inliers/ true inliers = 0/47;
+		 number of undetected true outliers/ true outliers = 0/30;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 0.302s
+		BuildAdjacency...Done, costing 0.001s
+		SpectralClustering...Done, costing 0.038s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0146
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0333, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.0187
+
+================================================================================
+Dataset(102) : Copy_of_articulated_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 4
+	number of total samples = 151
+	dimension of each sample = 62
+	number of outliers = 60
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 93/91 ;
+		 number of detected inliers/ true outliers = 58/60 ;
+		 number of undetected true inliers/ true inliers = 1/91;
+		 number of undetected true outliers/ true outliers = 3/60;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 0.633s
+		BuildAdjacency...Done, costing 0.002s
+		SpectralClustering...Done, costing 0.059s
+	missrate_in = 0.13978
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 1.0000
+	err_ratio_out = 0.0165
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.0500
+	err_ratio_out = 0.0357
+
+================================================================================
+Dataset(103) : articulated_g12_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 82
+	dimension of each sample = 62
+	number of outliers = 32
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 51/50 ;
+		 number of detected inliers/ true outliers = 31/32 ;
+		 number of undetected true inliers/ true inliers = 0/50;
+		 number of undetected true outliers/ true outliers = 1/32;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 0.334s
+		BuildAdjacency...Done, costing 0.001s
+		SpectralClustering...Done, costing 0.034s
+	missrate_in = 0.019608
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0019
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.0313
+	err_ratio_out = 0.0253
+
+================================================================================
+Dataset(104) : articulated_g13_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 105
+	dimension of each sample = 62
+	number of outliers = 42
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 63/63 ;
+		 number of detected inliers/ true outliers = 42/42 ;
+		 number of undetected true inliers/ true inliers = 0/63;
+		 number of undetected true outliers/ true outliers = 0/42;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 0.388s
+		BuildAdjacency...Done, costing 0.001s
+		SpectralClustering...Done, costing 0.036s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0376
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.0377
+
+================================================================================
+Dataset(105) : articulated_g23_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 113
+	dimension of each sample = 62
+	number of outliers = 45
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 67/68 ;
+		 number of detected inliers/ true outliers = 46/45 ;
+		 number of undetected true inliers/ true inliers = 1/68;
+		 number of undetected true outliers/ true outliers = 0/45;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 0.441s
+		BuildAdjacency...Done, costing 0.001s
+		SpectralClustering...Done, costing 0.036s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0295
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.0337
+
+================================================================================
+Dataset(106) : cars1_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 307
+	dimension of each sample = 40
+	number of outliers = 122
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 180/185 ;
+		 number of detected inliers/ true outliers = 127/122 ;
+		 number of undetected true inliers/ true inliers = 5/185;
+		 number of undetected true outliers/ true outliers = 0/122;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 1.304s
+		BuildAdjacency...Done, costing 0.003s
+		SpectralClustering...Done, costing 0.042s
+	missrate_in = 0.011111
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0082
+	err_ratio_out = 0.0720
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.0131
+
+================================================================================
+Dataset(107) : cars10_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 3
+	number of total samples = 297
+	dimension of each sample = 62
+	number of outliers = 118
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 179/179 ;
+		 number of detected inliers/ true outliers = 118/118 ;
+		 number of undetected true inliers/ true inliers = 0/179;
+		 number of undetected true outliers/ true outliers = 0/118;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 1.436s
+		BuildAdjacency...Done, costing 0.002s
+		SpectralClustering...Done, costing 0.050s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0169
+	err_ratio_out = 0.0237
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0254, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.0276
+
+================================================================================
+Dataset(108) : cars10_g12_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 214
+	dimension of each sample = 62
+	number of outliers = 85
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 129/129 ;
+		 number of detected inliers/ true outliers = 85/85 ;
+		 number of undetected true inliers/ true inliers = 0/129;
+		 number of undetected true outliers/ true outliers = 0/85;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 0.867s
+		BuildAdjacency...Done, costing 0.002s
+		SpectralClustering...Done, costing 0.042s
+	missrate_in = 0.03876
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0115
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0353, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.0136
+
+================================================================================
+Dataset(109) : cars10_g23_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 159
+	dimension of each sample = 62
+	number of outliers = 63
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 96/96 ;
+		 number of detected inliers/ true outliers = 63/63 ;
+		 number of undetected true inliers/ true inliers = 0/96;
+		 number of undetected true outliers/ true outliers = 0/63;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 0.614s
+		BuildAdjacency...Done, costing 0.001s
+		SpectralClustering...Done, costing 0.038s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0317
+	err_ratio_out = 0.0115
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0317, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.0122
+
+================================================================================
+Dataset(110) : cars2_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 490
+	dimension of each sample = 60
+	number of outliers = 196
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 289/294 ;
+		 number of detected inliers/ true outliers = 201/196 ;
+		 number of undetected true inliers/ true inliers = 5/294;
+		 number of undetected true outliers/ true outliers = 0/196;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 2.649s
+		BuildAdjacency...Done, costing 0.006s
+		SpectralClustering...Done, costing 0.051s
+	missrate_in = 0.0069204
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0102
+	err_ratio_out = 0.0386
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0102, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.0892
+
+================================================================================
+Dataset(111) : cars2B_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 3
+	number of total samples = 535
+	dimension of each sample = 60
+	number of outliers = 214
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 320/321 ;
+		 number of detected inliers/ true outliers = 215/214 ;
+		 number of undetected true inliers/ true inliers = 1/321;
+		 number of undetected true outliers/ true outliers = 0/214;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 3.064s
+		BuildAdjacency...Done, costing 0.008s
+		SpectralClustering...Done, costing 0.064s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0047
+	err_ratio_out = 0.0866
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.0043
+
+================================================================================
+Dataset(112) : cars2B_g12_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 92
+	dimension of each sample = 60
+	number of outliers = 36
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 56/56 ;
+		 number of detected inliers/ true outliers = 36/36 ;
+		 number of undetected true inliers/ true inliers = 0/56;
+		 number of undetected true outliers/ true outliers = 0/36;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 0.329s
+		BuildAdjacency...Done, costing 0.001s
+		SpectralClustering...Done, costing 0.035s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0057
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.0069
+
+================================================================================
+Dataset(113) : cars2B_g13_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 502
+	dimension of each sample = 60
+	number of outliers = 200
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 299/302 ;
+		 number of detected inliers/ true outliers = 203/200 ;
+		 number of undetected true inliers/ true inliers = 3/302;
+		 number of undetected true outliers/ true outliers = 0/200;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 2.725s
+		BuildAdjacency...Done, costing 0.007s
+		SpectralClustering...Done, costing 0.055s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0050
+	err_ratio_out = 0.0801
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.0042
+
+================================================================================
+Dataset(114) : cars2B_g23_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 476
+	dimension of each sample = 60
+	number of outliers = 190
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 285/286 ;
+		 number of detected inliers/ true outliers = 191/190 ;
+		 number of undetected true inliers/ true inliers = 1/286;
+		 number of undetected true outliers/ true outliers = 0/190;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 2.559s
+		BuildAdjacency...Done, costing 0.005s
+		SpectralClustering...Done, costing 0.057s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0730
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.0731
+
+================================================================================
+Dataset(115) : cars2_06_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 3
+	number of total samples = 123
+	dimension of each sample = 30
+	number of outliers = 49
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 81/74 ;
+		 number of detected inliers/ true outliers = 42/49 ;
+		 number of undetected true inliers/ true inliers = 4/74;
+		 number of undetected true outliers/ true outliers = 11/49;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 0.390s
+		BuildAdjacency...Done, costing 0.001s
+		SpectralClustering...Done, costing 0.052s
+	missrate_in = 0.037037
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0816
+	err_ratio_out = 0.1127
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0526, where undetected_outlier_num_ratio = 0.2245
+	err_ratio_out = 0.1047
+
+================================================================================
+Dataset(116) : cars2_06_g12_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 48
+	dimension of each sample = 30
+	number of outliers = 19
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 31/29 ;
+		 number of detected inliers/ true outliers = 17/19 ;
+		 number of undetected true inliers/ true inliers = 0/29;
+		 number of undetected true outliers/ true outliers = 2/19;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 0.116s
+		BuildAdjacency...Done, costing 0.000s
+		SpectralClustering...Done, costing 0.034s
+	missrate_in = 0.096774
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.1579
+	err_ratio_out = 0.2167
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0588, where undetected_outlier_num_ratio = 0.1053
+	err_ratio_out = 0.1983
+
+================================================================================
+Dataset(117) : cars2_06_g13_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 94
+	dimension of each sample = 30
+	number of outliers = 37
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 69/57 ;
+		 number of detected inliers/ true outliers = 25/37 ;
+		 number of undetected true inliers/ true inliers = 1/57;
+		 number of undetected true outliers/ true outliers = 13/37;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 0.316s
+		BuildAdjacency...Done, costing 0.001s
+		SpectralClustering...Done, costing 0.032s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.1221
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.3514
+	err_ratio_out = 0.0952
+
+================================================================================
+Dataset(118) : cars2_06_g23_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 104
+	dimension of each sample = 30
+	number of outliers = 41
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 71/63 ;
+		 number of detected inliers/ true outliers = 33/41 ;
+		 number of undetected true inliers/ true inliers = 2/63;
+		 number of undetected true outliers/ true outliers = 10/41;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 0.321s
+		BuildAdjacency...Done, costing 0.001s
+		SpectralClustering...Done, costing 0.036s
+	missrate_in = 0.014085
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0488
+	err_ratio_out = 0.0494
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.2439
+	err_ratio_out = 0.0548
+
+================================================================================
+Dataset(119) : cars2_07_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 3
+	number of total samples = 212
+	dimension of each sample = 40
+	number of outliers = 84
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 127/128 ;
+		 number of detected inliers/ true outliers = 85/84 ;
+		 number of undetected true inliers/ true inliers = 8/128;
+		 number of undetected true outliers/ true outliers = 7/84;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 0.728s
+		BuildAdjacency...Done, costing 0.002s
+		SpectralClustering...Done, costing 0.044s
+	missrate_in = 0.031496
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0238
+	err_ratio_out = 0.0289
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.1688, where undetected_outlier_num_ratio = 0.0833
+	err_ratio_out = 0.0645
+
+================================================================================
+Dataset(120) : cars2_07_g12_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 41
+	dimension of each sample = 40
+	number of outliers = 16
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 25/25 ;
+		 number of detected inliers/ true outliers = 16/16 ;
+		 number of undetected true inliers/ true inliers = 0/25;
+		 number of undetected true outliers/ true outliers = 0/16;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 0.103s
+		BuildAdjacency...Done, costing 0.000s
+		SpectralClustering...Done, costing 0.036s
+	missrate_in = 0.24
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0042
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.0071
+
+================================================================================
+Dataset(121) : cars2_07_g13_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 190
+	dimension of each sample = 40
+	number of outliers = 76
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 122/114 ;
+		 number of detected inliers/ true outliers = 68/76 ;
+		 number of undetected true inliers/ true inliers = 1/114;
+		 number of undetected true outliers/ true outliers = 9/76;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 0.700s
+		BuildAdjacency...Done, costing 0.002s
+		SpectralClustering...Done, costing 0.044s
+	missrate_in = 0.4918
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0011
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.9552, where undetected_outlier_num_ratio = 0.1184
+	err_ratio_out = 0.0408
+
+================================================================================
+Dataset(122) : cars2_07_g23_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 193
+	dimension of each sample = 40
+	number of outliers = 77
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 120/116 ;
+		 number of detected inliers/ true outliers = 73/77 ;
+		 number of undetected true inliers/ true inliers = 0/116;
+		 number of undetected true outliers/ true outliers = 4/77;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 0.680s
+		BuildAdjacency...Done, costing 0.002s
+		SpectralClustering...Done, costing 0.037s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0390
+	err_ratio_out = 0.0402
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0548, where undetected_outlier_num_ratio = 0.0519
+	err_ratio_out = 0.1024
+
+================================================================================
+Dataset(123) : cars3_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 3
+	number of total samples = 548
+	dimension of each sample = 40
+	number of outliers = 219
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 296/329 ;
+		 number of detected inliers/ true outliers = 252/219 ;
+		 number of undetected true inliers/ true inliers = 40/329;
+		 number of undetected true outliers/ true outliers = 7/219;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 2.336s
+		BuildAdjacency...Done, costing 0.007s
+		SpectralClustering...Done, costing 0.054s
+	missrate_in = 0.057432
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0365
+	err_ratio_out = 0.0670
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0896, where undetected_outlier_num_ratio = 0.0320
+	err_ratio_out = 0.0445
+
+================================================================================
+Dataset(124) : cars3_g12_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 111
+	dimension of each sample = 40
+	number of outliers = 44
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 65/67 ;
+		 number of detected inliers/ true outliers = 46/44 ;
+		 number of undetected true inliers/ true inliers = 2/67;
+		 number of undetected true outliers/ true outliers = 0/44;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 0.307s
+		BuildAdjacency...Done, costing 0.001s
+		SpectralClustering...Done, costing 0.034s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0455
+	err_ratio_out = 0.1991
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0455, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.2018
+
+================================================================================
+Dataset(125) : cars3_g13_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 474
+	dimension of each sample = 40
+	number of outliers = 189
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 278/285 ;
+		 number of detected inliers/ true outliers = 196/189 ;
+		 number of undetected true inliers/ true inliers = 14/285;
+		 number of undetected true outliers/ true outliers = 7/189;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 2.067s
+		BuildAdjacency...Done, costing 0.007s
+		SpectralClustering...Done, costing 0.087s
+	missrate_in = 0.40288
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0423
+	err_ratio_out = 0.0919
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0659, where undetected_outlier_num_ratio = 0.0370
+	err_ratio_out = 0.0178
+
+================================================================================
+Dataset(126) : cars3_g23_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 511
+	dimension of each sample = 40
+	number of outliers = 204
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 303/307 ;
+		 number of detected inliers/ true outliers = 208/204 ;
+		 number of undetected true inliers/ true inliers = 13/307;
+		 number of undetected true outliers/ true outliers = 9/204;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 2.700s
+		BuildAdjacency...Done, costing 0.007s
+		SpectralClustering...Done, costing 0.056s
+	missrate_in = 0.0066007
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0049
+	err_ratio_out = 0.1070
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0667, where undetected_outlier_num_ratio = 0.0441
+	err_ratio_out = 0.0375
+
+================================================================================
+Dataset(127) : cars4_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 147
+	dimension of each sample = 108
+	number of outliers = 58
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 88/89 ;
+		 number of detected inliers/ true outliers = 59/58 ;
+		 number of undetected true inliers/ true inliers = 1/89;
+		 number of undetected true outliers/ true outliers = 0/58;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 0.826s
+		BuildAdjacency...Done, costing 0.001s
+		SpectralClustering...Done, costing 0.036s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0045
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.0046
+
+================================================================================
+Dataset(128) : cars5_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 3
+	number of total samples = 391
+	dimension of each sample = 74
+	number of outliers = 156
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 231/235 ;
+		 number of detected inliers/ true outliers = 160/156 ;
+		 number of undetected true inliers/ true inliers = 5/235;
+		 number of undetected true outliers/ true outliers = 1/156;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 1.922s
+		BuildAdjacency...Done, costing 0.004s
+		SpectralClustering...Done, costing 0.054s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0064
+	err_ratio_out = 0.0256
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0065, where undetected_outlier_num_ratio = 0.0064
+	err_ratio_out = 0.0129
+
+================================================================================
+Dataset(129) : cars5_g12_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 84
+	dimension of each sample = 74
+	number of outliers = 33
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 51/51 ;
+		 number of detected inliers/ true outliers = 33/33 ;
+		 number of undetected true inliers/ true inliers = 0/51;
+		 number of undetected true outliers/ true outliers = 0/33;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 0.354s
+		BuildAdjacency...Done, costing 0.001s
+		SpectralClustering...Done, costing 0.043s
+	missrate_in = 0.019608
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0036
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.0061
+
+================================================================================
+Dataset(130) : cars5_g13_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 343
+	dimension of each sample = 74
+	number of outliers = 137
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 199/206 ;
+		 number of detected inliers/ true outliers = 144/137 ;
+		 number of undetected true inliers/ true inliers = 7/206;
+		 number of undetected true outliers/ true outliers = 0/137;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 1.353s
+		BuildAdjacency...Done, costing 0.002s
+		SpectralClustering...Done, costing 0.035s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0073
+	err_ratio_out = 0.0036
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0073, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.0039
+
+================================================================================
+Dataset(131) : cars5_g23_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 355
+	dimension of each sample = 74
+	number of outliers = 142
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 208/213 ;
+		 number of detected inliers/ true outliers = 147/142 ;
+		 number of undetected true inliers/ true inliers = 5/213;
+		 number of undetected true outliers/ true outliers = 0/142;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 1.867s
+		BuildAdjacency...Done, costing 0.003s
+		SpectralClustering...Done, costing 0.047s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0012
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.0012
+
+================================================================================
+Dataset(132) : cars6_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 464
+	dimension of each sample = 62
+	number of outliers = 185
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 266/279 ;
+		 number of detected inliers/ true outliers = 198/185 ;
+		 number of undetected true inliers/ true inliers = 13/279;
+		 number of undetected true outliers/ true outliers = 0/185;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 2.300s
+		BuildAdjacency...Done, costing 0.005s
+		SpectralClustering...Done, costing 0.053s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0023
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.0028
+
+================================================================================
+Dataset(133) : cars7_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 502
+	dimension of each sample = 50
+	number of outliers = 200
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 297/302 ;
+		 number of detected inliers/ true outliers = 205/200 ;
+		 number of undetected true inliers/ true inliers = 5/302;
+		 number of undetected true outliers/ true outliers = 0/200;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 2.707s
+		BuildAdjacency...Done, costing 0.006s
+		SpectralClustering...Done, costing 0.057s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0050
+	err_ratio_out = 0.0306
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0050, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.0273
+
+================================================================================
+Dataset(134) : cars8_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 192
+	dimension of each sample = 50
+	number of outliers = 76
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 115/116 ;
+		 number of detected inliers/ true outliers = 77/76 ;
+		 number of undetected true inliers/ true inliers = 1/116;
+		 number of undetected true outliers/ true outliers = 0/76;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 0.781s
+		BuildAdjacency...Done, costing 0.002s
+		SpectralClustering...Done, costing 0.051s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.1088
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.1077
+
+================================================================================
+Dataset(135) : cars9_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 3
+	number of total samples = 220
+	dimension of each sample = 122
+	number of outliers = 88
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 132/132 ;
+		 number of detected inliers/ true outliers = 88/88 ;
+		 number of undetected true inliers/ true inliers = 0/132;
+		 number of undetected true outliers/ true outliers = 0/88;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 1.462s
+		BuildAdjacency...Done, costing 0.002s
+		SpectralClustering...Done, costing 0.045s
+	missrate_in = 0.34091
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0035
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.2841, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.0137
+
+================================================================================
+Dataset(136) : cars9_g12_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 75
+	dimension of each sample = 122
+	number of outliers = 30
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 44/45 ;
+		 number of detected inliers/ true outliers = 31/30 ;
+		 number of undetected true inliers/ true inliers = 1/45;
+		 number of undetected true outliers/ true outliers = 0/30;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 0.396s
+		BuildAdjacency...Done, costing 0.000s
+		SpectralClustering...Done, costing 0.035s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0053
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.0062
+
+================================================================================
+Dataset(137) : cars9_g13_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 189
+	dimension of each sample = 122
+	number of outliers = 75
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 112/114 ;
+		 number of detected inliers/ true outliers = 77/75 ;
+		 number of undetected true inliers/ true inliers = 2/114;
+		 number of undetected true outliers/ true outliers = 0/75;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 0.898s
+		BuildAdjacency...Done, costing 0.001s
+		SpectralClustering...Done, costing 0.030s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0035
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.0042
+
+================================================================================
+Dataset(138) : cars9_g23_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 176
+	dimension of each sample = 122
+	number of outliers = 70
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 104/106 ;
+		 number of detected inliers/ true outliers = 72/70 ;
+		 number of undetected true inliers/ true inliers = 2/106;
+		 number of undetected true outliers/ true outliers = 0/70;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 0.781s
+		BuildAdjacency...Done, costing 0.001s
+		SpectralClustering...Done, costing 0.030s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0025
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.0038
+
+================================================================================
+Dataset(139) : dancing_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 5
+	number of total samples = 268
+	dimension of each sample = 80
+	number of outliers = 107
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 161/161 ;
+		 number of detected inliers/ true outliers = 107/107 ;
+		 number of undetected true inliers/ true inliers = 8/161;
+		 number of undetected true outliers/ true outliers = 8/107;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 1.399s
+		BuildAdjacency...Done, costing 0.003s
+		SpectralClustering...Done, costing 0.089s
+	missrate_in = 0.39752
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.1121
+	err_ratio_out = 0.0081
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.3232, where undetected_outlier_num_ratio = 0.0748
+	err_ratio_out = 0.0215
+
+================================================================================
+Dataset(140) : kanatani2_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 63
+	dimension of each sample = 34
+	number of outliers = 25
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 40/38 ;
+		 number of detected inliers/ true outliers = 23/25 ;
+		 number of undetected true inliers/ true inliers = 1/38;
+		 number of undetected true outliers/ true outliers = 3/25;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 0.149s
+		BuildAdjacency...Done, costing 0.000s
+		SpectralClustering...Done, costing 0.033s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0060
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.1200
+	err_ratio_out = 0.0241
+
+================================================================================
+Dataset(141) : kanatani3_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 73
+	dimension of each sample = 200
+	number of outliers = 29
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 52/44 ;
+		 number of detected inliers/ true outliers = 21/29 ;
+		 number of undetected true inliers/ true inliers = 0/44;
+		 number of undetected true outliers/ true outliers = 8/29;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 0.796s
+		BuildAdjacency...Done, costing 0.001s
+		SpectralClustering...Done, costing 0.036s
+	missrate_in = 0.25
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0167
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0476, where undetected_outlier_num_ratio = 0.2759
+	err_ratio_out = 0.1299
+
+================================================================================
+Dataset(142) : people1_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 504
+	dimension of each sample = 82
+	number of outliers = 201
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 284/303 ;
+		 number of detected inliers/ true outliers = 220/201 ;
+		 number of undetected true inliers/ true inliers = 19/303;
+		 number of undetected true outliers/ true outliers = 0/201;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 2.782s
+		BuildAdjacency...Done, costing 0.005s
+		SpectralClustering...Done, costing 0.058s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0050
+	err_ratio_out = 0.0223
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0697, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.0705
+
+================================================================================
+Dataset(143) : people2_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 469
+	dimension of each sample = 60
+	number of outliers = 187
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 275/282 ;
+		 number of detected inliers/ true outliers = 194/187 ;
+		 number of undetected true inliers/ true inliers = 7/282;
+		 number of undetected true outliers/ true outliers = 0/187;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 2.290s
+		BuildAdjacency...Done, costing 0.008s
+		SpectralClustering...Done, costing 0.055s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0053
+	err_ratio_out = 0.0279
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0000, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.0758
+
+================================================================================
+Dataset(144) : three-cars_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 3
+	number of total samples = 173
+	dimension of each sample = 30
+	number of outliers = 69
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 105/104 ;
+		 number of detected inliers/ true outliers = 68/69 ;
+		 number of undetected true inliers/ true inliers = 0/104;
+		 number of undetected true outliers/ true outliers = 1/69;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 0.544s
+		BuildAdjacency...Done, costing 0.002s
+		SpectralClustering...Done, costing 0.042s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0145
+	err_ratio_out = 0.0520
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.2647, where undetected_outlier_num_ratio = 0.0145
+	err_ratio_out = 0.0586
+
+================================================================================
+Dataset(145) : three-cars_g12_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 92
+	dimension of each sample = 30
+	number of outliers = 36
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 58/56 ;
+		 number of detected inliers/ true outliers = 34/36 ;
+		 number of undetected true inliers/ true inliers = 0/56;
+		 number of undetected true outliers/ true outliers = 2/36;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 0.285s
+		BuildAdjacency...Done, costing 0.001s
+		SpectralClustering...Done, costing 0.036s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0278
+	err_ratio_out = 0.1120
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0294, where undetected_outlier_num_ratio = 0.0556
+	err_ratio_out = 0.0247
+
+================================================================================
+Dataset(146) : three-cars_g13_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 125
+	dimension of each sample = 30
+	number of outliers = 50
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 78/75 ;
+		 number of detected inliers/ true outliers = 47/50 ;
+		 number of undetected true inliers/ true inliers = 0/75;
+		 number of undetected true outliers/ true outliers = 3/50;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 0.412s
+		BuildAdjacency...Done, costing 0.001s
+		SpectralClustering...Done, costing 0.042s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0013
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.1489, where undetected_outlier_num_ratio = 0.0600
+	err_ratio_out = 0.0147
+
+================================================================================
+Dataset(147) : three-cars_g23_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 129
+	dimension of each sample = 30
+	number of outliers = 51
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 78/78 ;
+		 number of detected inliers/ true outliers = 51/51 ;
+		 number of undetected true inliers/ true inliers = 0/78;
+		 number of undetected true outliers/ true outliers = 0/51;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 0.361s
+		BuildAdjacency...Done, costing 0.001s
+		SpectralClustering...Done, costing 0.041s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0196
+	err_ratio_out = 0.0088
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0392, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.0094
+
+================================================================================
+Dataset(148) : truck1_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 188
+	dimension of each sample = 60
+	number of outliers = 75
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 112/113 ;
+		 number of detected inliers/ true outliers = 76/75 ;
+		 number of undetected true inliers/ true inliers = 1/113;
+		 number of undetected true outliers/ true outliers = 0/75;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 0.711s
+		BuildAdjacency...Done, costing 0.001s
+		SpectralClustering...Done, costing 0.036s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.2072
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0533, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.1347
+
+================================================================================
+Dataset(149) : truck2_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 331
+	dimension of each sample = 44
+	number of outliers = 132
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 192/199 ;
+		 number of detected inliers/ true outliers = 139/132 ;
+		 number of undetected true inliers/ true inliers = 7/199;
+		 number of undetected true outliers/ true outliers = 0/132;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 1.412s
+		BuildAdjacency...Done, costing 0.003s
+		SpectralClustering...Done, costing 0.043s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0152
+	err_ratio_out = 0.0335
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0076, where undetected_outlier_num_ratio = 0.0000
+	err_ratio_out = 0.0307
+
+================================================================================
+Dataset(150) : two_cranes_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 3
+	number of total samples = 94
+	dimension of each sample = 60
+	number of outliers = 37
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 60/57 ;
+		 number of detected inliers/ true outliers = 34/37 ;
+		 number of undetected true inliers/ true inliers = 0/57;
+		 number of undetected true outliers/ true outliers = 3/37;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 0.311s
+		BuildAdjacency...Done, costing 0.001s
+		SpectralClustering...Done, costing 0.043s
+	missrate_in = 0.066667
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0541
+	err_ratio_out = 0.0032
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.5294, where undetected_outlier_num_ratio = 0.0811
+	err_ratio_out = 0.2200
+
+================================================================================
+Dataset(151) : two_cranes_g12_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 72
+	dimension of each sample = 60
+	number of outliers = 28
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 47/44 ;
+		 number of detected inliers/ true outliers = 25/28 ;
+		 number of undetected true inliers/ true inliers = 0/44;
+		 number of undetected true outliers/ true outliers = 3/28;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 0.321s
+		BuildAdjacency...Done, costing 0.001s
+		SpectralClustering...Done, costing 0.037s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0714
+	err_ratio_out = 0.0030
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0800, where undetected_outlier_num_ratio = 0.1071
+	err_ratio_out = 0.0170
+
+================================================================================
+Dataset(152) : two_cranes_g13_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 77
+	dimension of each sample = 60
+	number of outliers = 30
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 48/47 ;
+		 number of detected inliers/ true outliers = 29/30 ;
+		 number of undetected true inliers/ true inliers = 1/47;
+		 number of undetected true outliers/ true outliers = 2/30;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 0.296s
+		BuildAdjacency...Done, costing 0.001s
+		SpectralClustering...Done, costing 0.034s
+	missrate_in = 0
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.0000
+	err_ratio_out = 0.0023
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.0357, where undetected_outlier_num_ratio = 0.0667
+	err_ratio_out = 0.0090
+
+================================================================================
+Dataset(153) : two_cranes_g23_truth.mat
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 39
+	dimension of each sample = 60
+	number of outliers = 15
+	shuffled_ratio = 0.4
+
+--Outlier Detection:--
+		 number of detected inliers/ true inliers = 25/24 ;
+		 number of detected inliers/ true outliers = 14/15 ;
+		 number of undetected true inliers/ true inliers = 0/24;
+		 number of undetected true outliers/ true outliers = 1/15;
+
+--Subspace Clustering:--
+	alpha = 500, affine = 1, outlier = 1, rho = 0.700000, r = 0.000000 
+		Constructing adjacency matrix...Done, costing 0.143s
+		BuildAdjacency...Done, costing 0.000s
+		SpectralClustering...Done, costing 0.033s
+	missrate_in = 0.16
+
+--Matrix Recovery with gt bases:--
+	Progress:[##################################################] 100%
+	missrate_out with ground truth bases = 0.1333
+	err_ratio_out = 0.0038
+
+--Matrix Recovery with Reconstructed Bases:--
+	Progress:[##################################################] 100%
+	missrate_out  = 0.1429, where undetected_outlier_num_ratio = 0.0667
+	err_ratio_out = 0.0467
+
+============================================================
+Summary with SSC alpha = 500 
+============================================================
+Median  missrate_in   for 2,3,5 group  =   0.000, 0.004, 0.398
+Average missrate_in   for 2,3,5 group  =   0.027, 0.043, 0.398
+Median  missrate_out  for 2,3,5 group  =   0.007, 0.023, 0.323
+Average missrate_out  for 2,3,5 group  =   0.040, 0.093, 0.323
+Median  err_ratio_out for 2,3,5 group  =   0.021, 0.020, 0.021
+Average err_ratio_out for 2,3,5 group  =   0.033, 0.033, 0.021
+Median  missrate_out_gtbases  for 2,3,5 group  =   0.000, 0.008, 0.112
+Average missrate_out_gtbases  for 2,3,5 group  =   0.011, 0.018, 0.112
+Median  err_ratio_out_gtbases for 2,3,5 group  =   0.009, 0.011, 0.008
+Average err_ratio_out_gtbases for 2,3,5 group  =   0.028, 0.023, 0.008
+>> 
