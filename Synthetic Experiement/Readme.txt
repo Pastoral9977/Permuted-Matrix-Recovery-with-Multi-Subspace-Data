@@ -1,0 +1,5 @@
+run DataRecovery.m
+run DataRecovery_multisubspace_plot.m
+
+run DataRecovery_singlesubspace.m
+run DataRecovery_singlesubspace_plot.m

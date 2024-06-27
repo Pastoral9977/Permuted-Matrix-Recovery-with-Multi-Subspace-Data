@@ -1,0 +1,140 @@
+close all
+clear 
+addpath(genpath('C:\Users\Pastoral\Desktop\Copy_SSC_ADMM_v1.1'));
+addpath(genpath('C:\Users\Pastoral\Desktop\Unlabeled_PCA_Code'));
+addpath(genpath('C:\Users\Pastoral\Desktop\Pursuit\Functions'));
+addpath(genpath('F:\Github download\LibADMM-master'));
+addpath(genpath('F:\Matlab toolbox\lrr'));
+
+load('YaleB_cell');
+num_groups = 10;
+
+h = 192; w = 168; 
+hh = 48; ww = 42;
+[~,n] = size(YaleB_cell{1,1});
+
+outliers_num = 20; % number of outliers out of 64 points
+v_patches = 48;
+h_patches = 42;
+% perm_pattern = 0 for fully shuffling; 1 for partially shuffling.
+perm_flag = 1;
+
+X_raw = zeros(hh*ww,n*num_groups);
+X_tilde = zeros(hh*ww,n*num_groups);
+outliers_ID = [];
+
+for i = 1:num_groups
+    X_raw(:,(i-1)*n+1:i*n) = DSP(YaleB_cell{1,i},h,w,hh,ww);
+    
+    shuffled_ids = randperm(n);
+    outliers_id = shuffled_ids(1:outliers_num);
+    if length(setdiff(outliers_id, 46))== outliers_num
+        outliers_id(1) = 46;
+    end
+    if length(setdiff(outliers_id, 23))== outliers_num
+        outliers_id(2) = 23;
+    end
+    if length(setdiff(outliers_id, 54))== outliers_num
+        outliers_id(3) = 54;
+    end
+    if length(setdiff(outliers_id, 12))== outliers_num
+        outliers_id(4) = 12;
+    end
+    [X] = permute_face(X_raw(:,(i-1)*n+1:i*n), outliers_id, hh, ww, v_patches, h_patches, perm_flag);
+    X_tilde(:,(i-1)*n+1:i*n) = X;
+    outliers_ID = [outliers_ID, sort(outliers_id)+(i-1)*n];
+
+end
+
+inliers_ID = setdiff(1:num_groups*n,outliers_ID);
+
+
+
+%SSC
+affine = false ;alpha = 10^9;
+
+%Round 1
+Z = admmLasso_mat_func(X_tilde, affine, alpha);
+%想办法解释不标准化的效果比标准化要好（SSC的代码似乎也没有标准化）
+value = vecnorm(Z,1);
+T = kmeans(value',2);
+I = find(T == 1); J = find(T == 2);
+I_mean = mean(value(:,I));J_mean = mean(value(:,J));
+
+if (I_mean < J_mean)
+    Inliers_id = J;Outliers_id = I;
+else
+    Inliers_id = I;Outliers_id = J;
+end
+
+err_in = length(setdiff(Inliers_id,inliers_ID))/length(Inliers_id);
+err_out = length(setdiff(Outliers_id,outliers_ID))/length(Outliers_id);
+
+%Round 2
+Z1 = admmLasso_mat_func(X_tilde(:,Inliers_id), affine, alpha);
+value1 = vecnorm(Z1,1);
+Q = kmeans(value1',2);
+I1 = find(Q == 1); J1 = find(Q == 2);
+I1_mean = mean(value1(:,I1));J1_mean = mean(value1(:,J1));
+
+if (I1_mean < J1_mean)
+    Inliers1_id = J1;Outliers1_id = I1;
+else
+    Inliers1_id = I1;Outliers1_id = J1;
+end
+
+Inliers_id = Inliers_id(setdiff(1:length(Inliers_id),Outliers1_id));
+Outliers_id = setdiff(1:size(X_tilde,2),Inliers_id);
+
+err1_in = length(setdiff(Inliers_id,inliers_ID))/length(Inliers_id);
+err1_out = length(setdiff(Outliers_id,outliers_ID))/length(Outliers_id);
+
+%Round 3
+Z2 = admmLasso_mat_func(X_tilde(:,Outliers_id), affine, alpha);
+value2 = vecnorm(Z2,1);
+R = kmeans(value2',2);
+I2 = find(R == 1); J2 = find(R == 2);
+I2_mean = mean(value2(:,I2));J2_mean = mean(value2(:,J2));
+
+if (I2_mean < J2_mean)
+    Inliers2_id = J2;Outliers2_id = I2;
+else
+    Inliers2_id = I2;Outliers2_id = J2;
+end
+
+Outliers_id = Outliers_id(setdiff(1:length(Outliers_id),Inliers2_id));
+Inliers_id = setdiff(1:size(X_tilde,2),Outliers_id);
+
+err2_in = length(setdiff(Inliers_id,inliers_ID))/length(Inliers_id);
+err2_out = length(setdiff(Outliers_id,outliers_ID))/length(Outliers_id);
+
+
+
+
+%Parameters for SSC
+Label_gt = zeros(num_groups*n,1);
+for i = 1:num_groups
+    Label_gt((i-1)*n+1:i*n,1) = i;
+end
+t = Label_gt(Inliers_id)';
+%carry out rpca before clustering
+agu = 0.01;
+Y = rpca(X_tilde(:,Inliers_id),agu);
+
+
+% LRR 
+lambda = 0.01;
+[Z,E] = lrr(Y,lambda);
+[idx] = clu_ncut(Z,num_groups);
+[acc] = compacc(idx,t);
+
+
+
+
+
+
+
+
+
+
+
