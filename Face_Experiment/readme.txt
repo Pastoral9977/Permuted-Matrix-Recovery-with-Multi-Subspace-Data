@@ -1,0 +1,7 @@
+run pmsdr_face_experiment.m
+run mruc_face_experiment.m
+run rpca_face_experiment.m
+run rkpca_face_experiment.m
+run ssc_face_experiment.m
+
+run ALL_check_missrate_out_with_ground_truth_bases.m

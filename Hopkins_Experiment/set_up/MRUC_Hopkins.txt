@@ -1,0 +1,291 @@
+================================================================================
+Dataset(1) : 1R2RC_truth.mat, parts:2, seed:136443   [i:3]
+================================================================================
+--Data Information:--
+	num_groups = 3
+	number of total samples = 459
+	dimension of each sample = 58
+	outlier_ratio = 0.4
+	shuffled_ratio = 0.4
+
+{未定义函数或变量 'FLSRF_MRUC_data_handling'。
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main_mruc', 'C:\Users\Pastoral\Desktop\submission_code\Hopkins Experiment\main_mruc.m', 87)" style="font-weight:bold">main_mruc</a> (<a href="matlab: opentoline('C:\Users\Pastoral\Desktop\submission_code\Hopkins Experiment\main_mruc.m',87,0)">line 87</a>)
+            [DATA_SUB_solved, seq] = FLSRF_MRUC_data_handling(DATA_TOTAL, num_groups, rr1,
+            s(inliers_ID), s(outliers_ID));} 
+opentoline('C:\Users\Pastoral\Desktop\submission_code\Hopkins Experiment\main_mruc.m',87,0)
+clear
+clc
+main_mruc
+================================================================================
+Dataset(1) : 1R2RC_truth.mat, parts:2, seed:4422   [i:3]
+================================================================================
+--Data Information:--
+	num_groups = 3
+	number of total samples = 459
+	dimension of each sample = 58
+	outlier_ratio = 0.4
+	shuffled_ratio = 0.4
+
+--subspace clustering--
+	missrate_in(Subspace Clustering):0.0144
+	missrate_out(Outlier Classification):0.0219
+initial_rank = 2
+-----------------MRUC-----------------
+{未定义函数或变量 'CD_complete_hopkins'。
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main_mruc', 'C:\Users\Pastoral\Desktop\submission_code\Hopkins Experiment\main_mruc.m', 137)" style="font-weight:bold">main_mruc</a> (<a href="matlab: opentoline('C:\Users\Pastoral\Desktop\submission_code\Hopkins Experiment\main_mruc.m',137,0)">line 137</a>)
+                [best_error,best_P,best_B,final_cert,history,result]=CD_complete_hopkins(use_B1,use_Bn,use_A1,use_An,use_A1_row_ind,use_An_row_ind,init_rank,
+                ... } 
+opentoline('C:\Users\Pastoral\Desktop\submission_code\Hopkins Experiment\main_mruc.m',137,0)
+clc
+clear
+clc
+main_mruc
+================================================================================
+Dataset(1) : 1R2RC_truth.mat, parts:2, seed:213744   [i:3]
+================================================================================
+--Data Information:--
+	num_groups = 3
+	number of total samples = 459
+	dimension of each sample = 58
+	outlier_ratio = 0.4
+	shuffled_ratio = 0.4
+
+--subspace clustering--
+	missrate_in(Subspace Clustering):0.0072
+	missrate_out(Outlier Classification):0.0055
+initial_rank = 2
+-----------------MRUC-----------------
+Evaluate(B_raw,rawimage) = 0.4394
+--
+50th iteration: Outer loop:(18.98179,0.02042,109.42598,5443.34036,1714.0),
+	cert:0.94926,diff:0.00000,lr:0.12262,eps:0.05000,lambda:49.57103,rank:2
+100th iteration: Outer loop:(18.57341,0.02040,109.44316,5443.82160,1600.0),
+	cert:0.93965,diff:0.00000,lr:0.13283,eps:0.02500,lambda:49.57138,rank:2
+150th iteration: Outer loop:(18.17781,0.02038,109.44646,5443.61468,1674.0),
+	cert:0.90493,diff:0.00000,lr:0.15000,eps:0.00625,lambda:49.57161,rank:2
+200th iteration: Outer loop:(18.01333,0.02036,109.44781,5443.52683,1570.0),
+	cert:0.83314,diff:0.00000,lr:0.15000,eps:0.00156,lambda:49.57169,rank:2
+---------------------------------------------------------
+	MRUC:          	Error = 0.0339
+---------------------------------------------------------
+-----------------FLSRF MRUC-----------------
+50th iteration: Outer loop:(65.98505,0.24973,46.14798,685.11994,1843.0),
+	cert:0.87900,diff:0.00005,lr:0.15000,eps:0.05000,lambda:13.41629,rank:2
+100th iteration: Outer loop:(113.54572,0.17519,44.18337,595.70254,2001.0),
+	cert:0.90684,diff:0.00028,lr:0.15000,eps:0.05000,lambda:10.91263,rank:2
+150th iteration: Outer loop:(16.02814,0.03306,43.06049,333.56078,1938.0),
+	cert:0.92464,diff:0.00000,lr:0.14724,eps:0.02500,lambda:7.37411,rank:2
+200th iteration: Outer loop:(15.57817,0.03295,43.07508,333.21942,1859.0),
+	cert:0.87680,diff:0.00000,lr:0.15000,eps:0.00625,lambda:7.37413,rank:2
+
+50th iteration: Outer loop:(0.67973,0.00656,42.32725,519.40040,1914.0),
+	cert:0.95930,diff:0.00000,lr:0.11086,eps:0.05000,lambda:12.25501,rank:2
+100th iteration: Outer loop:(0.38586,0.00655,42.34269,519.34839,1624.0),
+	cert:0.94670,diff:0.00000,lr:0.12543,eps:0.01250,lambda:12.25625,rank:2
+150th iteration: Outer loop:(0.15368,0.00654,42.34904,519.28842,1127.0),
+	cert:0.86406,diff:0.00003,lr:0.15000,eps:0.00078,lambda:12.25848,rank:2
+200th iteration: Outer loop:(0.12749,0.00653,42.35023,519.30814,1088.0),
+	cert:0.74450,diff:0.00000,lr:0.15000,eps:0.00020,lambda:12.25922,rank:2
+
+50th iteration: Outer loop:(0.15966,0.00351,84.41885,2973.58000,1666.0),
+	cert:0.96494,diff:0.00000,lr:0.10362,eps:0.05000,lambda:35.22223,rank:2
+100th iteration: Outer loop:(0.15580,0.00350,84.43849,2975.63202,1708.0),
+	cert:0.96317,diff:0.00000,lr:0.10593,eps:0.01250,lambda:35.23839,rank:2
+150th iteration: Outer loop:(0.13122,0.00349,84.43875,2975.62289,1527.0),
+	cert:0.94734,diff:0.00000,lr:0.12433,eps:0.00156,lambda:35.23846,rank:2
+200th iteration: Outer loop:(0.10823,0.00349,84.43908,2975.61748,1558.0),
+	cert:0.91745,diff:0.00000,lr:0.14552,eps:0.00039,lambda:35.23853,rank:2
+
+---------------------------------------------------------
+	FLSRF MRUC:    	Error = 0.0274
+---------------------------------------------------------
+-----------------FLSRF MRUC gt-----------------
+50th iteration: Outer loop:(55.91240,0.25816,45.87894,675.61472,1814.0),
+	cert:0.87813,diff:0.00004,lr:0.15000,eps:0.05000,lambda:13.50734,rank:2
+100th iteration: Outer loop:(69.11470,0.24833,45.54194,670.72941,1904.0),
+	cert:0.88025,diff:0.00001,lr:0.15000,eps:0.05000,lambda:13.21013,rank:2
+150th iteration: Outer loop:(87.72599,0.19998,44.40187,599.25372,1975.0),
+	cert:0.90419,diff:0.00019,lr:0.15000,eps:0.05000,lambda:11.52041,rank:2
+200th iteration: Outer loop:(16.53419,0.03277,42.50769,325.19426,2000.0),
+	cert:0.93784,diff:0.00000,lr:0.13461,eps:0.05000,lambda:7.26128,rank:2
+
+50th iteration: Outer loop:(0.68042,0.00650,41.09813,460.93478,1920.0),
+	cert:0.95925,diff:0.00000,lr:0.11093,eps:0.05000,lambda:11.19891,rank:2
+100th iteration: Outer loop:(0.38708,0.00648,41.11555,460.95351,1652.0),
+	cert:0.94644,diff:0.00000,lr:0.12567,eps:0.01250,lambda:11.20176,rank:2
+150th iteration: Outer loop:(0.17390,0.00648,41.12178,460.88822,1226.0),
+	cert:0.89614,diff:0.00350,lr:0.11131,eps:0.00156,lambda:11.20366,rank:2
+200th iteration: Outer loop:(0.12987,0.00646,41.12401,460.92075,917.0),
+	cert:0.80952,diff:0.00000,lr:0.15000,eps:0.00039,lambda:11.20491,rank:2
+
+50th iteration: Outer loop:(0.16262,0.00358,85.19011,3039.03760,1776.0),
+	cert:0.96496,diff:0.00000,lr:0.10360,eps:0.05000,lambda:35.67169,rank:2
+100th iteration: Outer loop:(0.15887,0.00357,85.21005,3041.12713,1754.0),
+	cert:0.96325,diff:0.00000,lr:0.10584,eps:0.01250,lambda:35.68791,rank:2
+150th iteration: Outer loop:(0.13557,0.00357,85.21033,3041.12025,1731.0),
+	cert:0.94776,diff:0.00000,lr:0.12391,eps:0.00156,lambda:35.68798,rank:2
+200th iteration: Outer loop:(0.11304,0.00357,85.21061,3041.11377,1711.0),
+	cert:0.91820,diff:0.00000,lr:0.14527,eps:0.00039,lambda:35.68805,rank:2
+
+---------------------------------------------------------
+	FLSRF MRUC gt: 	Error = 0.0274
+---------------------------------------------------------
+================================================================================
+Dataset(2) : 1R2RCR_truth.mat, parts:2, seed:284992   [i:4]
+================================================================================
+--Data Information:--
+	num_groups = 3
+	number of total samples = 482
+	dimension of each sample = 48
+	outlier_ratio = 0.4
+	shuffled_ratio = 0.4
+
+--subspace clustering--
+	missrate_in(Subspace Clustering):0.0069
+	missrate_out(Outlier Classification):0.0052
+initial_rank = 2
+-----------------MRUC-----------------
+Evaluate(B_raw,rawimage) = 0.3727
+--
+50th iteration: Outer loop:(8.05876,0.02249,102.82852,5029.63581,796.0),
+	cert:0.86661,diff:0.00000,lr:0.15000,eps:0.05000,lambda:48.83448,rank:2
+100th iteration: Outer loop:(6.43396,0.02248,102.84670,5029.61003,676.0),
+	cert:0.68164,diff:0.00000,lr:0.15000,eps:0.00625,lambda:48.84139,rank:2
+150th iteration: Outer loop:(6.17728,0.02248,102.84757,5029.62124,640.0),
+	cert:0.09968,diff:0.00002,lr:0.15000,eps:0.00020,lambda:48.84358,rank:2
+200th iteration: Outer loop:(6.35619,0.02251,102.84036,5032.24228,928.0),
+	cert:0.18795,diff:0.00001,lr:0.15000,eps:0.00001,lambda:48.87075,rank:2
+---------------------------------------------------------
+	MRUC:          	Error = 0.0315
+---------------------------------------------------------
+-----------------FLSRF MRUC-----------------
+50th iteration: Outer loop:(3.84339,0.02646,30.92335,180.32120,756.0),
+	cert:0.88906,diff:0.00000,lr:0.15000,eps:0.05000,lambda:5.70694,rank:2
+100th iteration: Outer loop:(2.57629,0.02633,30.94273,179.18929,770.0),
+	cert:0.80976,diff:0.00003,lr:0.15000,eps:0.01250,lambda:5.70774,rank:2
+150th iteration: Outer loop:(2.34539,0.02630,30.95412,179.03266,762.0),
+	cert:0.74730,diff:0.00000,lr:0.15000,eps:0.00625,lambda:5.70804,rank:2
+200th iteration: Outer loop:(2.11981,0.02629,30.95811,178.85573,864.0),
+	cert:0.41943,diff:0.00000,lr:0.15000,eps:0.00078,lambda:5.70887,rank:2
+
+50th iteration: Outer loop:(1.22137,0.00506,45.07006,368.53740,1050.0),
+	cert:0.93216,diff:0.00000,lr:0.14020,eps:0.05000,lambda:8.14989,rank:2
+100th iteration: Outer loop:(0.17360,0.00507,45.08697,367.76535,856.0),
+	cert:0.82524,diff:0.00000,lr:0.15000,eps:0.00313,lambda:8.15295,rank:2
+150th iteration: Outer loop:(0.07782,0.00507,45.08929,367.70319,676.0),
+	cert:0.43214,diff:0.00004,lr:0.15000,eps:0.00010,lambda:8.15328,rank:2
+200th iteration: Outer loop:(0.06181,0.00515,45.11624,367.89650,697.0),
+	cert:0.22064,diff:0.00000,lr:0.15000,eps:0.00001,lambda:8.15304,rank:2
+
+50th iteration: Outer loop:(2.35095,0.01022,78.08752,2355.98383,903.0),
+	cert:0.89193,diff:0.00000,lr:0.15000,eps:0.05000,lambda:30.14096,rank:2
+100th iteration: Outer loop:(1.60373,0.01021,78.09910,2355.82356,808.0),
+	cert:0.85889,diff:0.00000,lr:0.15000,eps:0.02500,lambda:30.14401,rank:2
+150th iteration: Outer loop:(0.72237,0.01019,78.10901,2355.50530,633.0),
+	cert:0.54282,diff:0.00638,lr:0.12576,eps:0.00156,lambda:30.14739,rank:2
+200th iteration: Outer loop:(0.66148,0.01019,78.11081,2355.51818,618.0),
+	cert:0.16552,diff:0.00000,lr:0.15000,eps:0.00020,lambda:30.14764,rank:2
+
+---------------------------------------------------------
+	FLSRF MRUC:    	Error = 0.0172
+---------------------------------------------------------
+-----------------FLSRF MRUC gt-----------------
+50th iteration: Outer loop:(3.84339,0.02646,30.92335,180.32120,756.0),
+	cert:0.88906,diff:0.00000,lr:0.15000,eps:0.05000,lambda:5.70694,rank:2
+100th iteration: Outer loop:(2.57629,0.02633,30.94273,179.18929,770.0),
+	cert:0.80976,diff:0.00003,lr:0.15000,eps:0.01250,lambda:5.70774,rank:2
+150th iteration: Outer loop:(2.34539,0.02630,30.95412,179.03266,762.0),
+	cert:0.74730,diff:0.00000,lr:0.15000,eps:0.00625,lambda:5.70804,rank:2
+200th iteration: Outer loop:(2.11981,0.02629,30.95811,178.85573,864.0),
+	cert:0.41943,diff:0.00000,lr:0.15000,eps:0.00078,lambda:5.70887,rank:2
+
+50th iteration: Outer loop:(1.23804,0.00534,46.03735,388.30366,1060.0),
+	cert:0.93193,diff:0.00000,lr:0.14041,eps:0.05000,lambda:8.40764,rank:2
+100th iteration: Outer loop:(0.27846,0.00534,46.05138,387.58496,902.0),
+	cert:0.86492,diff:0.00001,lr:0.15000,eps:0.00625,lambda:8.41031,rank:2
+150th iteration: Outer loop:(0.10655,0.00534,46.05546,387.47139,783.0),
+	cert:0.68957,diff:0.00001,lr:0.15000,eps:0.00078,lambda:8.41083,rank:2
+200th iteration: Outer loop:(0.08015,0.00534,46.05662,387.46253,654.0),
+	cert:0.29412,diff:0.00005,lr:0.15000,eps:0.00002,lambda:8.41100,rank:2
+
+50th iteration: Outer loop:(2.34274,0.01024,77.15287,2259.22449,887.0),
+	cert:0.89209,diff:0.00000,lr:0.15000,eps:0.05000,lambda:29.25208,rank:2
+100th iteration: Outer loop:(1.16224,0.01022,77.16469,2258.63112,711.0),
+	cert:0.81271,diff:0.00569,lr:0.09757,eps:0.01250,lambda:29.25520,rank:2
+150th iteration: Outer loop:(0.71640,0.01021,77.17520,2258.77254,633.0),
+	cert:0.54362,diff:0.00000,lr:0.15000,eps:0.00156,lambda:29.25883,rank:2
+200th iteration: Outer loop:(0.65216,0.01021,77.17639,2258.73641,618.0),
+	cert:0.04051,diff:0.00001,lr:0.15000,eps:0.00005,lambda:29.25875,rank:2
+
+---------------------------------------------------------
+	FLSRF MRUC gt: 	Error = 0.0172
+---------------------------------------------------------
+================================================================================
+Dataset(3) : 1R2RCR_g12_truth.mat, parts:2, seed:356240   [i:5]
+================================================================================
+--Data Information:--
+	num_groups = 2
+	number of total samples = 153
+	dimension of each sample = 48
+	outlier_ratio = 0.4
+	shuffled_ratio = 0.4
+
+--subspace clustering--
+	missrate_in(Subspace Clustering):0.0000
+	missrate_out(Outlier Classification):0.0000
+initial_rank = 2
+-----------------MRUC-----------------
+Evaluate(B_raw,rawimage) = 0.2011
+--
+50th iteration: Outer loop:(3.51520,0.02245,60.25050,1047.69658,875.0),
+	cert:0.88146,diff:0.00000,lr:0.15000,eps:0.05000,lambda:17.33067,rank:2
+100th iteration: Outer loop:(2.10530,0.02241,60.27364,1047.38466,747.0),
+	cert:0.78803,diff:0.00000,lr:0.15000,eps:0.01250,lambda:17.34223,rank:2
+150th iteration: Outer loop:(1.62565,0.02240,60.28166,1047.29955,590.0),
+	cert:0.44033,diff:0.00002,lr:0.15000,eps:0.00156,lambda:17.34647,rank:2
+200th iteration: Outer loop:(1.54405,0.02240,60.29100,1047.74338,614.0),
+	cert:0.05346,diff:0.00003,lr:0.15000,eps:0.00010,lambda:17.35250,rank:2
+---------------------------------------------------------
+	MRUC:          	Error = 0.0269
+---------------------------------------------------------
+-----------------FLSRF MRUC-----------------
+50th iteration: Outer loop:(2.41872,0.02418,30.67767,176.88667,878.0),
+	cert:0.88886,diff:0.00000,lr:0.15000,eps:0.05000,lambda:5.68713,rank:2
+100th iteration: Outer loop:(1.11986,0.02408,30.70466,175.78787,879.0),
+	cert:0.80690,diff:0.00000,lr:0.15000,eps:0.01250,lambda:5.68865,rank:2
+150th iteration: Outer loop:(0.69160,0.02405,30.71284,175.40979,729.0),
+	cert:0.51486,diff:0.00005,lr:0.15000,eps:0.00156,lambda:5.68877,rank:2
+200th iteration: Outer loop:(0.62779,0.02405,30.71706,175.37814,630.0),
+	cert:0.17218,diff:0.00000,lr:0.15000,eps:0.00020,lambda:5.68903,rank:2
+
+50th iteration: Outer loop:(1.22355,0.00536,46.03873,388.36691,950.0),
+	cert:0.93149,diff:0.00000,lr:0.14078,eps:0.05000,lambda:8.40908,rank:2
+100th iteration: Outer loop:(0.77645,0.00532,46.04600,388.02734,895.0),
+	cert:0.91545,diff:0.00000,lr:0.14967,eps:0.02500,lambda:8.41009,rank:2
+150th iteration: Outer loop:(0.25357,0.00527,46.05302,387.58618,768.0),
+	cert:0.86292,diff:0.00000,lr:0.15000,eps:0.00625,lambda:8.41058,rank:2
+200th iteration: Outer loop:(0.08134,0.00527,46.05546,387.44451,641.0),
+	cert:0.68448,diff:0.00007,lr:0.15000,eps:0.00078,lambda:8.41080,rank:2
+
+---------------------------------------------------------
+	FLSRF MRUC:    	Error = 0.0177
+---------------------------------------------------------
+-----------------FLSRF MRUC gt-----------------
+50th iteration: Outer loop:(2.41872,0.02418,30.67767,176.88667,878.0),
+	cert:0.88886,diff:0.00000,lr:0.15000,eps:0.05000,lambda:5.68713,rank:2
+100th iteration: Outer loop:(1.11986,0.02408,30.70466,175.78787,879.0),
+	cert:0.80690,diff:0.00000,lr:0.15000,eps:0.01250,lambda:5.68865,rank:2
+150th iteration: Outer loop:(0.69160,0.02405,30.71284,175.40979,729.0),
+	cert:0.51486,diff:0.00005,lr:0.15000,eps:0.00156,lambda:5.68877,rank:2
+200th iteration: Outer loop:(0.62779,0.02405,30.71706,175.37814,630.0),
+	cert:0.17218,diff:0.00000,lr:0.15000,eps:0.00020,lambda:5.68903,rank:2
+
+{操作在以下过程中被用户终止 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('CD_complete_hopkins>Softmin', 'C:\Users\Pastoral\Desktop\submission_code\Hopkins Experiment\set_up\mruc_hopkins\CD_complete_hopkins.m', 214)" style="font-weight:bold">CD_complete_hopkins>Softmin</a> (<a href="matlab: opentoline('C:\Users\Pastoral\Desktop\submission_code\Hopkins Experiment\set_up\mruc_hopkins\CD_complete_hopkins.m',214,0)">line 214</a>)
+
+位置 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('CD_complete_hopkins', 'C:\Users\Pastoral\Desktop\submission_code\Hopkins Experiment\set_up\mruc_hopkins\CD_complete_hopkins.m', 96)" style="font-weight:bold">CD_complete_hopkins</a> (<a href="matlab: opentoline('C:\Users\Pastoral\Desktop\submission_code\Hopkins Experiment\set_up\mruc_hopkins\CD_complete_hopkins.m',96,0)">line 96</a>)
+                    g=Softmin(C-f*one_vector'-one_vector*g',eps,2)+g;
+位置 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main_mruc', 'C:\Users\Pastoral\Desktop\submission_code\Hopkins Experiment\main_mruc.m', 179)" style="font-weight:bold">main_mruc</a> (<a href="matlab: opentoline('C:\Users\Pastoral\Desktop\submission_code\Hopkins Experiment\main_mruc.m',179,0)">line 179</a>)
+                    [best_error,best_P,best_B,final_cert,history,result]=CD_complete_hopkins(use_B1,use_Bn,use_A1,use_An,use_A1_row_ind,use_An_row_ind,init_rank,...} 
+clear
+clc
+main_mruc
